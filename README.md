@@ -40,9 +40,9 @@
 [![Photoshop](https://img.shields.io/badge/-Photoshop-001c25?style=flat-square&logo=adobe-photoshop&logoColor=00c4f5)](https://www.linkedin.com/in/claudiobonfati/)
 
 **Others Technologies**
-[![Gradle](https://img.shields.io/badge/-Gradle-02303A?style=flat-square&logo=Gradle&link=https://www.linkedin.com/in/claudiobonfati/)](https://www.linkedin.com/in/claudiobonfati/)
 [![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js&link=https://www.linkedin.com/in/claudiobonfati/)](https://www.linkedin.com/in/claudiobonfati/)
-[![Postmam](https://img.shields.io/badge/-Postmam-5849BE?style=flat-square&logo=Postmam&link=https://www.linkedin.com/in/claudiobonfati/)](https://www.linkedin.com/in/claudiobonfati/)
+[![Expressjs](https://img.shields.io/badge/-Expressjs-black?style=flat-square&logo=Node.js&logoColor=white&link=https://www.linkedin.com/in/claudiobonfati/)](https://www.linkedin.com/in/claudiobonfati/)
+[![Postmam](https://img.shields.io/badge/-Postmam-eb5722?style=flat-square&logo=postman&logoColor=white&link=https://www.linkedin.com/in/claudiobonfati/)](https://www.linkedin.com/in/claudiobonfati/)
 [![Insomnia](https://img.shields.io/badge/-Insomnia-5849BE?style=flat-square&logo=Insomnia&link=https://www.linkedin.com/in/claudiobonfati/)](https://www.linkedin.com/in/claudiobonfati/)
 
 **Database**

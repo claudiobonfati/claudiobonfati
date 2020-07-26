@@ -30,7 +30,8 @@
 [![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white&link=https://www.linkedin.com/in/claudiobonfati/)](https://www.linkedin.com/in/claudiobonfati/)
 [![SASS](https://img.shields.io/badge/-SASS-ed9ac2?style=flat-square&logo=sass)](https://www.linkedin.com/in/claudiobonfati/)
 [![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&link=https://www.linkedin.com/in/claudiobonfati/)](https://www.linkedin.com/in/claudiobonfati/)
-[![Vue](https://img.shields.io/badge/-Vue-c30e2e?style=flat-square&logo=vue&link=https://www.linkedin.com/in/claudiobonfati/)](https://www.linkedin.com/in/claudiobonfati/)
+[![Vue.js](https://img.shields.io/badge/-Vue.js-00C58E?style=flat-square&logo=vue-dot-js&logoColor=white&link=https://www.linkedin.com/in/claudiobonfati/)](https://www.linkedin.com/in/claudiobonfati/)
+[![Nuxt.js](https://img.shields.io/badge/-Nuxt.js-00C58E?style=flat-square&logo=nuxt-dot-js&logoColor=white&link=https://www.linkedin.com/in/claudiobonfati/)](https://www.linkedin.com/in/claudiobonfati/)
 [![Angular](https://img.shields.io/badge/-Angular-c30e2e?style=flat-square&logo=angular&link=https://www.linkedin.com/in/claudiobonfati/)](https://www.linkedin.com/in/claudiobonfati/)
 [![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react&link=https://www.linkedin.com/in/claudiobonfati/)](https://www.linkedin.com/in/claudiobonfati/)
 

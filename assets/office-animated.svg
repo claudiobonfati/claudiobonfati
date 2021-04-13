@@ -1,415 +1,547 @@
-<svg id="office" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1183 747" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+<svg id="office" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1800 747" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
 	<style>
 		<![CDATA[
-			#office-smoke-1,
-			#office-copy-of-smoke-1,
-			#office-smoke-2,
-			#office-copy-of-smoke-2 {
-			    animation: office-smoke-opacity 5000ms linear infinite normal forwards
-			}
-			@keyframes office-smoke-opacity {
-			     0% {
-			        opacity: 1
-			    }
-			    60% {
-			        opacity: 0
-			    } 100% {
-			        opacity: 0
-			    }
-			}
 			#office-smoke-1_to {
-			    animation: office-smoke-1_to__to 5000ms linear infinite normal forwards
+				animation: office-smoke-1_to__to 6000ms linear infinite normal forwards;
 			}
 			@keyframes office-smoke-1_to__to {
-			     0% {
-			        transform: translate(328.818500px,548.500000px)
-			    }
-			     66.666667% {
-			        transform: translate(308px,437px)
-			    }
-			     100% {
-			        transform: translate(308px,437px)
-			    }
+				0% {
+					transform: translate(645.8185px, 548.5px);
+				}
+				66.666667% {
+					transform: translate(625.8185px, 448.5px);
+				}
+				100% {
+					transform: translate(625.8185px, 448.5px);
+				}
 			}
 			#office-smoke-1_ts {
-			    animation: office-smoke-1_ts__ts 5000ms linear infinite normal forwards
+				animation: office-smoke-1_ts__ts 6000ms linear infinite normal forwards;
 			}
 			@keyframes office-smoke-1_ts__ts {
-			     0% {
-			        transform: scale(1,1)
-			    }
-			     66.666667% {
-			        transform: scale(2.200000,2.200000)
-			    }
-			     100% {
-			        transform: scale(2.200000,2.200000)
-			    }
+				0% {
+					transform: scale(1, 1);
+				}
+				66.666667% {
+					transform: scale(2.2, 2.2);
+				}
+				100% {
+					transform: scale(2.2, 2.2);
+				}
 			}
-			#office-copy-of-smoke-1_to {
-			    animation: office-copy-of-smoke-1_to__to 5000ms linear infinite normal forwards
+			#office-smoke-1 {
+				animation: office-smoke-1_c_o 6000ms linear infinite normal forwards;
 			}
-			@keyframes office-copy-of-smoke-1_to__to {
-			     0% {
-			        transform: translate(328.818500px,548.500000px)
-			    }
-			     6.666667% {
-			        transform: translate(328.818500px,548.500000px)
-			    }
-			     73.333333% {
-			        transform: translate(308px,437px)
-			    }
-			     100% {
-			        transform: translate(308px,437px)
-			    }
-			}
-			#office-copy-of-smoke-1_ts {
-			    animation: office-copy-of-smoke-1_ts__ts 5000ms linear infinite normal forwards
-			}
-			@keyframes office-copy-of-smoke-1_ts__ts {
-			     0% {
-			        transform: scale(1,1)
-			    }
-			     6.666667% {
-			        transform: scale(1,1)
-			    }
-			     73.333333% {
-			        transform: scale(2.200000,2.200000)
-			    }
-			     100% {
-			        transform: scale(2.200000,2.200000)
-			    }
+			@keyframes office-smoke-1_c_o {
+				0% {
+					opacity: 1;
+				}
+				66.666667% {
+					opacity: 0;
+				}
+				100% {
+					opacity: 0;
+				}
 			}
 			#office-smoke-2_to {
-			    animation: office-smoke-2_to__to 5000ms linear infinite normal forwards
+				animation: office-smoke-2_to__to 6000ms linear infinite normal forwards;
 			}
 			@keyframes office-smoke-2_to__to {
-			     0% {
-			        transform: translate(328.818500px,548.500000px)
-			    }
-			     3.333333% {
-			        transform: translate(328.818500px,548.500000px)
-			    }
-			     70% {
-			        transform: translate(348.820000px,437px)
-			    }
-			     100% {
-			        transform: translate(348.820000px,437px)
-			    }
+				0% {
+					transform: translate(645.82px, 548.5px);
+				}
+				3.333333% {
+					transform: translate(645.82px, 548.5px);
+				}
+				70% {
+					transform: translate(665.82px, 448.5px);
+				}
+				100% {
+					transform: translate(665.82px, 448.5px);
+				}
 			}
 			#office-smoke-2_ts {
-			    animation: office-smoke-2_ts__ts 5000ms linear infinite normal forwards
+				animation: office-smoke-2_ts__ts 6000ms linear infinite normal forwards;
 			}
 			@keyframes office-smoke-2_ts__ts {
-			     0% {
-			        transform: scale(1,1)
-			    }
-			     3.333333% {
-			        transform: scale(1,1)
-			    }
-			     70% {
-			        transform: scale(2.200000,2.200000)
-			    }
-			     100% {
-			        transform: scale(2.200000,2.200000)
-			    }
+				0% {
+					transform: scale(1, 1);
+				}
+				3.333333% {
+					transform: scale(1, 1);
+				}
+				70% {
+					transform: scale(2.2, 2.2);
+				}
+				100% {
+					transform: scale(2.2, 2.2);
+				}
 			}
-			#office-copy-of-smoke-2_to {
-			    animation: office-copy-of-smoke-2_to__to 5000ms linear infinite normal forwards
+			#office-smoke-2 {
+				animation: office-smoke-2_c_o 6000ms linear infinite normal forwards;
 			}
-			@keyframes office-copy-of-smoke-2_to__to {
-			     0% {
-			        transform: translate(328.818500px,548.500000px)
-			    }
-			     10% {
-			        transform: translate(328.818500px,548.500000px)
-			    }
-			     76.666667% {
-			        transform: translate(348.820000px,437px)
-			    }
-			     100% {
-			        transform: translate(348.820000px,437px)
-			    }
+			@keyframes office-smoke-2_c_o {
+				0% {
+					opacity: 1;
+				}
+				3.333333% {
+					opacity: 1;
+				}
+				70% {
+					opacity: 0;
+				}
+				100% {
+					opacity: 0;
+				}
 			}
-			#office-copy-of-smoke-2_ts {
-			    animation: office-copy-of-smoke-2_ts__ts 5000ms linear infinite normal forwards
+			#office-smoke-3_to {
+				animation: office-smoke-3_to__to 6000ms linear infinite normal forwards;
 			}
-			@keyframes office-copy-of-smoke-2_ts__ts {
-			     0% {
-			        transform: scale(1,1)
-			    }
-			     10% {
-			        transform: scale(1,1)
-			    }
-			     76.666667% {
-			        transform: scale(2.200000,2.200000)
-			    }
-			     100% {
-			        transform: scale(2.200000,2.200000)
-			    }
+			@keyframes office-smoke-3_to__to {
+				0% {
+					transform: translate(645.82px, 548.5px);
+				}
+				6.666667% {
+					transform: translate(645.82px, 548.5px);
+				}
+				73.333333% {
+					transform: translate(625.82px, 448.5px);
+				}
+				100% {
+					transform: translate(625.82px, 448.5px);
+				}
+			}
+			#office-smoke-3_ts {
+				animation: office-smoke-3_ts__ts 6000ms linear infinite normal forwards;
+			}
+			@keyframes office-smoke-3_ts__ts {
+				0% {
+					transform: scale(1, 1);
+				}
+				6.666667% {
+					transform: scale(1, 1);
+				}
+				73.333333% {
+					transform: scale(2.2, 2.2);
+				}
+				100% {
+					transform: scale(2.2, 2.2);
+				}
+			}
+			#office-smoke-3 {
+				animation: office-smoke-3_c_o 6000ms linear infinite normal forwards;
+			}
+			@keyframes office-smoke-3_c_o {
+				0% {
+					opacity: 1;
+				}
+				6.666667% {
+					opacity: 1;
+				}
+				73.333333% {
+					opacity: 0;
+				}
+				100% {
+					opacity: 0;
+				}
+			}
+			#office-smoke-4_to {
+				animation: office-smoke-4_to__to 6000ms linear infinite normal forwards;
+			}
+			@keyframes office-smoke-4_to__to {
+				0% {
+					transform: translate(645.82px, 548.5px);
+				}
+				10% {
+					transform: translate(645.82px, 548.5px);
+				}
+				76.666667% {
+					transform: translate(665.82px, 448.5px);
+				}
+				100% {
+					transform: translate(665.82px, 448.5px);
+				}
+			}
+			#office-smoke-4_ts {
+				animation: office-smoke-4_ts__ts 6000ms linear infinite normal forwards;
+			}
+			@keyframes office-smoke-4_ts__ts {
+				0% {
+					transform: scale(1, 1);
+				}
+				10% {
+					transform: scale(1, 1);
+				}
+				76.666667% {
+					transform: scale(2.2, 2.2);
+				}
+				100% {
+					transform: scale(2.2, 2.2);
+				}
+			}
+			#office-smoke-4 {
+				animation: office-smoke-4_c_o 6000ms linear infinite normal forwards;
+			}
+			@keyframes office-smoke-4_c_o {
+				0% {
+					opacity: 1;
+				}
+				10% {
+					opacity: 1;
+				}
+				76.666667% {
+					opacity: 0;
+				}
+				100% {
+					opacity: 0;
+				}
+			}
+			#office-imac-screen_to {
+				animation: office-imac-screen_to__to 18000ms linear infinite normal forwards;
+			}
+			@keyframes office-imac-screen_to__to {
+				0% {
+					transform: translate(-1592px, -136px);
+				}
+				49% {
+					transform: translate(-1592px, -136px);
+				}
+				50% {
+					transform: translate(-1302px, -136px);
+				}
+				99% {
+					transform: translate(-1302px, -136px);
+				}
+				100% {
+					transform: translate(-1592px, -136px);
+				}
 			}
 			#office-lines_to {
-			    animation: office-lines_to__to 2000ms linear infinite normal forwards
+				animation: office-lines_to__to 1500ms linear infinite normal forwards;
 			}
 			@keyframes office-lines_to__to {
-			     0% {
-			        transform: translate(2029.950000px,-667.990000px)
-			    }
-			     100% {
-			        transform: translate(2029.950000px,-1075.990000px)
-			    }
+				0% {
+					transform: translate(2029.95px, -667.99px);
+				}
+				100% {
+					transform: translate(2029.95px, -1075.99px);
+				}
+			}
+			#office-imac-screen-name_to {
+				animation: office-imac-screen-name_to__to 18000ms linear infinite normal forwards;
+			}
+			@keyframes office-imac-screen-name_to__to {
+				0% {
+					transform: translate(-1882px, -136px);
+				}
+				49% {
+					transform: translate(-1882px, -136px);
+				}
+				50% {
+					transform: translate(-1592px, -136px);
+				}
+				99% {
+					transform: translate(-1592px, -136px);
+				}
+				100% {
+					transform: translate(-1882px, -136px);
+				}
+			}
+			#office-light {
+				animation: office-light_c_o 21000ms linear infinite normal forwards;
+			}
+			@keyframes office-light_c_o {
+				0% {
+					opacity: 0.124;
+				}
+				98% {
+					opacity: 0.124;
+				}
+				98.5% {
+					opacity: 0.05;
+				}
+				99% {
+					opacity: 0.12;
+				}
+				99.5% {
+					opacity: 0.06;
+				}
+				100% {
+					opacity: 0.12;
+				}
 			}
 		]]>
 	</style>
 	<defs>
-		<linearGradient id="office-polygon-1-fill" x1="0.500000" y1="0" x2="0.500000" y2="1" spreadMethod="pad" gradientUnits="objectBoundingBox">
-			<stop id="office-polygon-1-fill-0" offset="0%" stop-color="rgb(255,255,255)"/>
-			<stop id="office-polygon-1-fill-1" offset="100%" stop-color="rgba(255,255,255,0)"/>
+		<linearGradient id="office-light-fill" x1="0.500000" y1="0" x2="0.500000" y2="1" spreadMethod="pad" gradientUnits="objectBoundingBox">
+			<stop id="office-light-fill-0" offset="0%" stop-color="rgb(255,255,255)"/>
+			<stop id="office-light-fill-1" offset="100%" stop-color="rgba(255,255,255,0)"/>
 		</linearGradient>
 	</defs>
-	<g id="office-g1" clip-path="url(#office-clip-office)">
-		<g id="office-office">
-			<rect id="office-background" width="1183" height="747" rx="20" ry="20" fill="rgb(30,30,30)" stroke="none" stroke-width="1"/>
-			<g id="office-table" transform="matrix(1 0 0 1 237.18899999999999 -135.54599999999999)">
-				<rect id="office-rectangle-33" width="708" height="16" rx="0" ry="0" transform="matrix(1 0 0 1 0.31100000000000 716.63400000000001)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
-				<path id="office-path-24" d="M96.650000,413.800000L79.611000,413.800000L78.111000,371.315000L98.150000,371.315000Z" transform="matrix(1 0 0 1 50.14800000000000 361.59699999999998)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
-				<path id="office-path-25" d="M365.974000,413.800000L348.951000,413.800000L347.451000,371.315000L367.491000,371.315000Z" transform="matrix(1 0 0 1 208.06500000000000 361.59699999999998)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
-				<path id="office-path-26" d="M97.600000,386.541000L78.658000,386.541000L78.110000,371.310000L98.150000,371.310000Z" transform="matrix(1 0 0 1 50.14800000000000 361.59699999999998)" fill="rgb(41,41,41)" stroke="none" stroke-width="1"/>
-				<path id="office-path-27" d="M366.927000,386.541000L348,386.541000L347.453000,371.310000L367.493000,371.310000Z" transform="matrix(1 0 0 1 208.06500000000000 361.59699999999998)" fill="rgb(41,41,41)" stroke="none" stroke-width="1"/>
+	<g id="office-office">
+		<rect id="office-background" width="1354.370328" height="747" rx="20" ry="20" transform="matrix(1.32903088815741 0 0 1 0.00000000488948 0)" fill="rgb(30,30,30)" stroke="none" stroke-width="1"/>
+		<g id="office-table" transform="matrix(1 0 0 1 237.18899999999999 -135.54599999999999)">
+			<rect id="office-rectangle-33" width="708" height="16" rx="0" ry="0" transform="matrix(1 0 0 1 317.81066199999998 716.63400000000001)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
+			<path id="office-path-24" d="M96.650000,413.800000L79.611000,413.800000L78.111000,371.315000L98.150000,371.315000Z" transform="matrix(1 0 0 1 367.64766199999997 361.59699999999998)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
+			<path id="office-path-25" d="M365.974000,413.800000L348.951000,413.800000L347.451000,371.315000L367.491000,371.315000Z" transform="matrix(1 0 0 1 525.56466200000000 361.59699999999998)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
+			<path id="office-path-26" d="M97.600000,386.541000L78.658000,386.541000L78.110000,371.310000L98.150000,371.310000Z" transform="matrix(1 0 0 1 367.64766199999997 361.59699999999998)" fill="rgb(41,41,41)" stroke="none" stroke-width="1"/>
+			<path id="office-path-27" d="M366.927000,386.541000L348,386.541000L347.453000,371.310000L367.493000,371.310000Z" transform="matrix(1 0 0 1 525.56466200000000 361.59699999999998)" fill="rgb(41,41,41)" stroke="none" stroke-width="1"/>
+		</g>
+		<g id="office-smoke-1_to" transform="translate(645.818500,548.500000)">
+			<g id="office-smoke-1_ts" transform="scale(1,1)">
+				<circle id="office-smoke-1" r="11.500000" transform="translate(0.681500,0)" fill="rgb(255,255,255)" stroke="none" stroke-width="1"/>
 			</g>
-			<g id="office-smoke-1_to" transform="translate(328.818500,548.500000)">
-				<g id="office-smoke-1_ts" transform="scale(1,1)">
-					<circle id="office-smoke-1" r="11.500000" transform="translate(0.681500,0)" fill="rgb(255,255,255)" stroke="none" stroke-width="1"/>
-				</g>
+		</g>
+		<g id="office-smoke-2_to" transform="translate(645.820000,548.500000)">
+			<g id="office-smoke-2_ts" transform="scale(1,1)">
+				<circle id="office-smoke-2" r="11.500000" transform="translate(0.681500,0)" fill="rgb(255,255,255)" stroke="none" stroke-width="1"/>
 			</g>
-			<g id="office-copy-of-smoke-1_to" transform="translate(328.818500,548.500000)">
-				<g id="office-copy-of-smoke-1_ts" transform="scale(1,1)">
-					<circle id="office-copy-of-smoke-1" r="11.500000" transform="translate(0.681500,0)" fill="rgb(255,255,255)" stroke="none" stroke-width="1"/>
-				</g>
+		</g>
+		<g id="office-smoke-3_to" transform="translate(645.820000,548.500000)">
+			<g id="office-smoke-3_ts" transform="scale(1,1)">
+				<circle id="office-smoke-3" r="11.500000" transform="translate(0.681500,0)" fill="rgb(255,255,255)" stroke="none" stroke-width="1"/>
 			</g>
-			<g id="office-smoke-2_to" transform="translate(328.818500,548.500000)">
-				<g id="office-smoke-2_ts" transform="scale(1,1)">
-					<circle id="office-smoke-2" r="11.500000" transform="translate(0.681500,0)" fill="rgb(255,255,255)" stroke="none" stroke-width="1"/>
-				</g>
+		</g>
+		<g id="office-smoke-4_to" transform="translate(645.820000,548.500000)">
+			<g id="office-smoke-4_ts" transform="scale(1,1)">
+				<circle id="office-smoke-4" r="11.500000" transform="translate(0.681500,0)" fill="rgb(255,255,255)" stroke="none" stroke-width="1"/>
 			</g>
-			<g id="office-copy-of-smoke-2_to" transform="translate(328.818500,548.500000)">
-				<g id="office-copy-of-smoke-2_ts" transform="scale(1,1)">
-					<circle id="office-copy-of-smoke-2" r="11.500000" transform="translate(0.681500,0)" fill="rgb(255,255,255)" stroke="none" stroke-width="1"/>
-				</g>
-			</g>
-			<g id="office-cup" transform="matrix(1 0 0 1 214.94900000000001 -130.97200000000001)">
-				<path id="office-path-1" d="M102.600000,404.044000C106.192000,404.044000,114.520000,403.586000,120.217000,399.622000C123.789366,397.313807,125.920187,393.327682,125.855000,389.075000C126.014201,384.552856,123.814460,380.272258,120.045000,377.769000C113.805000,373.476000,104.990000,374.034000,104.618000,374.049000L105.318000,379.949000C105.318000,379.949000,111.157000,379.634000,114.792000,382.167000C116.991784,383.757524,118.214583,386.371002,118.026000,389.079000C118.146371,391.545862,116.960079,393.894135,114.903000,395.261000C110.209000,398.538000,101.565000,398.123000,101.479000,398.123000L100.838000,404.023000C100.955000,404.044000,101.584000,404.044000,102.600000,404.044000Z" transform="matrix(1 0 0 1 29.73500000000000 294.28699999999998)" fill="rgb(160,160,160)" stroke="none" stroke-width="1"/>
-				<path id="office-path-2" d="M99.947000,322.870000L42.310000,322.870000L50.840000,374.991000L90.970000,374.991000Z" transform="matrix(1 0 0 1 42.74100000000000 337.06799999999998)" fill="rgb(160,160,160)" stroke="none" stroke-width="1"/>
-			</g>
-			<g id="office-imac" transform="matrix(1 0 0 1 186.49700000000001 -84.36400000000000)">
-				<path id="office-path-14" d="M124.230000,319.100000L434.789000,319.100000L434.789000,331.062000C434.789000,343.612000,425.589000,353.786000,414.238000,353.786000L144.781000,353.786000C133.431000,353.786000,124.230000,343.612000,124.230000,331.062000Z" transform="matrix(1 0 0 1 126.49400000000000 275.36599999999999)" fill="rgb(214,214,214)" stroke="none" stroke-width="1"/>
-				<rect id="office-rectangle-24" width="64" height="27" rx="0" ry="0" transform="matrix(1 0 0 1 373.72300000000001 629.45100000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-				<path id="office-path-15" d="M138.600000,207.350000L420.407000,207.350000C428.350000,207.350000,434.789000,213.376000,434.789000,220.811000L434.789000,384.011000L124.229000,384.011000L124.229000,220.811000C124.229000,213.383000,130.658000,207.359000,138.595000,207.350000Z" transform="matrix(1 0 0 1 126.49400000000000 210.46000000000001)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
-				<rect id="office-rectangle-25" width="286" height="152" rx="0" ry="0" transform="matrix(1 0 0 1 262.72300000000001 430.45100000000002)" fill="rgb(255,255,255)" stroke="none" stroke-width="1"/>
-				<path id="office-path-16" d="M254.513000,373.406000C254.512448,377.192204,251.442871,380.261184,247.656667,380.261000C243.870463,380.260816,240.801184,377.191537,240.801000,373.405333C240.800816,369.619129,243.869796,366.549552,247.656000,366.549000C249.474671,366.548735,251.218930,367.271081,252.504924,368.557076C253.790919,369.843070,254.513265,371.587329,254.513000,373.406000Z" transform="matrix(1 0 0 1 158.34700000000001 238.40199999999999)" fill="rgb(255,255,255)" stroke="none" stroke-width="1"/>
-				<path id="office-path-17" d="M327.632000,407.263000L208.280000,407.263000C208.286915,404.890475,209.259599,402.623046,210.974000,400.983000C212.722920,399.309223,215.053227,398.379610,217.474000,398.390000L318.484000,398.390000C323.467841,398.308665,327.575832,402.279276,327.664000,407.263000Z" transform="matrix(1 0 0 1 136.82200000000000 258.18799999999999)" fill="rgb(214,214,214)" stroke="none" stroke-width="1"/>
-				<rect id="office-rectangle-26" width="43" height="25" rx="0" ry="0" transform="matrix(1 0 0 1 276.72300000000001 617.45100000000002)" fill="rgb(255,255,255)" stroke="none" stroke-width="1"/>
-				<rect id="office-rectangle-27" width="16" height="9" rx="0" ry="0" transform="matrix(1 0 0 1 290.72300000000001 612.45100000000002)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
-			</g>
-			<g id="office-imac-screen" transform="matrix(1 0 0 1 -1592 -136)">
-				<rect id="office-bg" width="286" height="152" rx="0" ry="0" transform="matrix(1 0 0 1 2041.22000000000003 482.08699999999999)" fill="rgb(57,57,57)" stroke="rgb(57,57,57)" stroke-width="1"/>
-				<g id="office-g2" clip-path="url(#office-clip-path)">
-					<g id="office-codes">
-						<g id="office-lines_to" transform="translate(2029.950000,-667.990000)">
-							<g id="office-lines" transform="translate(0,0)">
-								<rect id="office-rect5505" width="100" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 80.05200000000001 1155.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5507" width="37" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 129.05199999999999 1172.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5509" width="72" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 80.05200000000001 1189.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5511" width="115" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 80.05200000000001 1206.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5513" width="75" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 104.60200000000000 1223.98000000000002)" fill="rgb(246,246,246)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5515" width="68" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 111.30700000000000 1240.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5517" width="68" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 98.05200000000001 1257.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5519" width="83" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 97.05200000000001 1274.98000000000002)" fill="rgb(72,72,72)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5521" width="99" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 80.05200000000001 1291.98000000000002)" fill="rgb(72,72,72)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5523" width="112" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 80.05200000000001 1308.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5525" width="85" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 80.05200000000001 1325.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5527" width="99" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 80.05200000000001 1342.98000000000002)" fill="rgb(246,246,246)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5529" width="65" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 137.05199999999999 1359.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5531" width="77" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 94.05200000000001 1376.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5533" width="77" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 81.05200000000001 1393.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5535" width="99" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 80.05200000000001 1410.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5537" width="61" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 118.05200000000001 1427.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5539" width="25" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 141.05199999999999 1444.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5541" width="50" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 129.05199999999999 1461.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5543" width="68" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 98.05200000000001 1478.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5545" width="34" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 118.05200000000001 1495.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5547" width="75" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 92.05200000000001 1512.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5549" width="32" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 135.05199999999999 1529.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect5551" width="99" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 80.05200000000001 1546.98000000000002)" fill="rgba(162,162,162,0.5)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect55052" width="100" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 80.05200000000001 1563.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect55072" width="37" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 129.05199999999999 1580.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect55092" width="72" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 80.05200000000001 1597.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect55112" width="115" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 80.05200000000001 1614.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect55132" width="75" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 104.60200000000000 1631.98000000000002)" fill="rgb(246,246,246)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect55152" width="68" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 111.30700000000000 1648.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect55172" width="68" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 98.05200000000001 1665.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect55192" width="83" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 97.05200000000001 1682.98000000000002)" fill="rgb(72,72,72)" stroke="none" stroke-width="1"/>
-								<rect id="office-rect55212" width="99" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 80.05200000000001 1699.98000000000002)" fill="rgb(72,72,72)" stroke="none" stroke-width="1"/>
+		</g>
+		<g id="office-cup" transform="matrix(1 0 0 1 214.94900000000001 -130.97200000000001)">
+			<path id="office-path-1" d="M102.600000,404.044000C106.192000,404.044000,114.520000,403.586000,120.217000,399.622000C123.789366,397.313807,125.920187,393.327682,125.855000,389.075000C126.014201,384.552856,123.814460,380.272258,120.045000,377.769000C113.805000,373.476000,104.990000,374.034000,104.618000,374.049000L105.318000,379.949000C105.318000,379.949000,111.157000,379.634000,114.792000,382.167000C116.991784,383.757524,118.214583,386.371002,118.026000,389.079000C118.146371,391.545862,116.960079,393.894135,114.903000,395.261000C110.209000,398.538000,101.565000,398.123000,101.479000,398.123000L100.838000,404.023000C100.955000,404.044000,101.584000,404.044000,102.600000,404.044000Z" transform="matrix(1 0 0 1 347.23466199999996 294.28699999999998)" fill="rgb(160,160,160)" stroke="none" stroke-width="1"/>
+			<path id="office-path-2" d="M99.947000,322.870000L42.310000,322.870000L50.840000,374.991000L90.970000,374.991000Z" transform="matrix(1 0 0 1 360.24066199999993 337.06799999999998)" fill="rgb(160,160,160)" stroke="none" stroke-width="1"/>
+		</g>
+		<g id="office-imac" transform="matrix(1 0 0 1 186.49700000000001 -84.36400000000000)">
+			<path id="office-path-14" d="M124.230000,319.100000L434.789000,319.100000L434.789000,331.062000C434.789000,343.612000,425.589000,353.786000,414.238000,353.786000L144.781000,353.786000C133.431000,353.786000,124.230000,343.612000,124.230000,331.062000Z" transform="matrix(1 0 0 1 443.99366199999997 275.36599999999999)" fill="rgb(214,214,214)" stroke="none" stroke-width="1"/>
+			<rect id="office-rectangle-24" width="64" height="27" rx="0" ry="0" transform="matrix(1 0 0 1 691.22266199999990 629.45100000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+			<path id="office-path-15" d="M138.600000,207.350000L420.407000,207.350000C428.350000,207.350000,434.789000,213.376000,434.789000,220.811000L434.789000,384.011000L124.229000,384.011000L124.229000,220.811000C124.229000,213.383000,130.658000,207.359000,138.595000,207.350000Z" transform="matrix(1 0 0 1 443.99366199999997 210.46000000000001)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
+			<rect id="office-rectangle-25" width="286" height="152" rx="0" ry="0" transform="matrix(1 0 0 1 580.22266199999990 430.45100000000002)" fill="rgb(255,255,255)" stroke="none" stroke-width="1"/>
+			<path id="office-path-16" d="M254.513000,373.406000C254.512448,377.192204,251.442871,380.261184,247.656667,380.261000C243.870463,380.260816,240.801184,377.191537,240.801000,373.405333C240.800816,369.619129,243.869796,366.549552,247.656000,366.549000C249.474671,366.548735,251.218930,367.271081,252.504924,368.557076C253.790919,369.843070,254.513265,371.587329,254.513000,373.406000Z" transform="matrix(1 0 0 1 475.84666199999992 238.40199999999999)" fill="rgb(255,255,255)" stroke="none" stroke-width="1"/>
+			<path id="office-path-17" d="M327.632000,407.263000L208.280000,407.263000C208.286915,404.890475,209.259599,402.623046,210.974000,400.983000C212.722920,399.309223,215.053227,398.379610,217.474000,398.390000L318.484000,398.390000C323.467841,398.308665,327.575832,402.279276,327.664000,407.263000Z" transform="matrix(1 0 0 1 454.32166199999995 258.18799999999999)" fill="rgb(214,214,214)" stroke="none" stroke-width="1"/>
+			<rect id="office-rectangle-26" width="43" height="25" rx="0" ry="0" transform="matrix(1 0 0 1 594.22266199999990 617.45100000000002)" fill="rgb(255,255,255)" stroke="none" stroke-width="1"/>
+			<rect id="office-rectangle-27" width="16" height="9" rx="0" ry="0" transform="matrix(1 0 0 1 608.22266199999990 612.45100000000002)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
+		</g>
+		<g id="office-imac-screen-box" mask="url(#office-mask1)">
+			<g id="office-imac-screen_to" transform="translate(-1592,-136)">
+				<g id="office-imac-screen" transform="translate(0,0)">
+					<rect id="office-bg" width="286" height="152" rx="0" ry="0" transform="matrix(1 0 0 1 2358.71966200000134 482.08699999999999)" fill="rgb(57,57,57)" stroke="rgb(57,57,57)" stroke-width="1"/>
+					<g id="office-g1" clip-path="url(#office-clip-path)">
+						<g id="office-codes">
+							<g id="office-lines_to" transform="translate(2029.950000,-667.990000)">
+								<g id="office-lines" transform="translate(0,0)">
+									<rect id="office-rect5505" width="100" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 397.55166199999996 1155.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5507" width="37" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 446.55166199999996 1172.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5509" width="72" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 397.55166199999996 1189.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5511" width="115" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 397.55166199999996 1206.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5513" width="75" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 422.10166199999992 1223.98000000000002)" fill="rgb(246,246,246)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5515" width="68" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 428.80666199999996 1240.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5517" width="68" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 415.55166199999996 1257.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5519" width="83" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 414.55166199999996 1274.98000000000002)" fill="rgb(72,72,72)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5521" width="99" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 397.55166199999996 1291.98000000000002)" fill="rgb(72,72,72)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5523" width="112" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 397.55166199999996 1308.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5525" width="85" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 397.55166199999996 1325.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5527" width="99" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 397.55166199999996 1342.98000000000002)" fill="rgb(246,246,246)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5529" width="65" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 454.55166199999996 1359.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5531" width="77" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 411.55166199999996 1376.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5533" width="77" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 398.55166199999996 1393.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5535" width="99" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 397.55166199999996 1410.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5537" width="61" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 435.55166199999996 1427.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5539" width="25" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 458.55166199999996 1444.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5541" width="50" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 446.55166199999996 1461.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5543" width="68" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 415.55166199999996 1478.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5545" width="34" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 435.55166199999996 1495.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5547" width="75" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 409.55166199999996 1512.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5549" width="32" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 452.55166199999996 1529.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect5551" width="99" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 397.55166199999996 1546.98000000000002)" fill="rgba(162,162,162,0.5)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect55052" width="100" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 397.55166199999996 1563.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect55072" width="37" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 446.55166199999996 1580.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect55092" width="72" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 397.55166199999996 1597.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect55112" width="115" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 397.55166199999996 1614.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect55132" width="75" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 422.10166199999992 1631.98000000000002)" fill="rgb(246,246,246)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect55152" width="68" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 428.80666199999996 1648.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect55172" width="68" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 415.55166199999996 1665.98000000000002)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect55192" width="83" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 414.55166199999996 1682.98000000000002)" fill="rgb(72,72,72)" stroke="none" stroke-width="1"/>
+									<rect id="office-rect55212" width="99" height="10" rx="0" ry="0" transform="matrix(1 0 0 1 397.55166199999996 1699.98000000000002)" fill="rgb(72,72,72)" stroke="none" stroke-width="1"/>
+								</g>
 							</g>
 						</g>
+						<clipPath id="office-clip-path">
+							<rect id="office-box" width="286" height="152" rx="0" ry="0" transform="matrix(1 0 0 1 2358.71966200000134 482.08699999999999)" fill="rgb(57,57,57)" stroke="rgb(57,57,57)" stroke-width="1"/>
+						</clipPath>
 					</g>
-					<clipPath id="office-clip-path">
-						<rect id="office-box" width="286" height="152" rx="0" ry="0" transform="matrix(1 0 0 1 2041.22000000000003 482.08699999999999)" fill="rgb(57,57,57)" stroke="rgb(57,57,57)" stroke-width="1"/>
-					</clipPath>
-				</g>
-				<rect id="office-sidebar" width="52" height="152" rx="0" ry="0" transform="matrix(1 0 0 1 2041.22000000000003 482.08699999999999)" fill="rgb(47,47,47)" stroke="rgb(57,57,57)" stroke-width="1"/>
-			</g>
-			<g id="office-vase" transform="matrix(1 0 0 1 451.61900000000003 119.73300000000000)">
-				<path id="office-path-28" d="M5.271000,18.773000C3.167900,18.773000,1.463000,17.068100,1.463000,14.965000L1.463000,13.522000L0.552000,13.522000C0.255999,13.509404,0.022511,13.265769,0.022511,12.969500C0.022511,12.673231,0.255999,12.429596,0.552000,12.417000L1.463000,12.417000L1.463000,8.663000L0.553000,8.663000C0.345306,8.680728,0.145339,8.579948,0.036033,8.402456C-0.073273,8.224964,-0.073273,8.001036,0.036033,7.823544C0.145339,7.646052,0.345306,7.545272,0.553000,7.563000L1.463000,7.563000L1.463000,3.809000L0.552000,3.809000C0.266376,3.784620,0.046947,3.545663,0.046947,3.259000C0.046947,2.972337,0.266376,2.733380,0.552000,2.709000L1.627000,2.709000C2.174587,0.903992,3.961062,-0.228139,5.827083,0.047307C7.693103,0.322752,9.076283,1.922761,9.079000,3.809000L9.079000,11.158000L20.235000,11.158000L20.235000,14.966000L20.235000,14.966000L20.235000,18.774000Z" transform="matrix(1 0 0 1 415.43900000000002 395.71600000000001)" fill="rgb(136,136,136)" stroke="rgba(0,0,0,0)" stroke-width="1" stroke-miterlimit="10"/>
-				<path id="office-path-29" d="M0,18.771000L0,14.963000L0,14.963000L0,11.156000L11.157000,11.156000L11.157000,3.807000C11.154993,1.890235,12.577993,0.270724,14.479091,0.026141C16.380188,-0.218442,18.166775,0.988145,18.650000,2.843000L19.684000,2.843000C19.891694,2.825272,20.091661,2.926052,20.200967,3.103544C20.310273,3.281036,20.310273,3.504964,20.200967,3.682456C20.091661,3.859948,19.891694,3.960728,19.684000,3.943000L18.773000,3.943000L18.773000,7.700000L19.684000,7.700000C19.891694,7.682272,20.091661,7.783052,20.200967,7.960544C20.310273,8.138036,20.310273,8.361964,20.200967,8.539456C20.091661,8.716948,19.891694,8.817728,19.684000,8.800000L18.773000,8.800000L18.773000,12.553000L19.684000,12.553000C19.980001,12.565596,20.213489,12.809231,20.213489,13.105500C20.213489,13.401769,19.980001,13.645404,19.684000,13.658000L18.773000,13.658000L18.773000,14.958000C18.773265,15.968026,18.372152,16.936760,17.657956,17.650956C16.943760,18.365152,15.975026,18.766265,14.965000,18.766000Z" transform="matrix(1 0 0 1 435.67399999999998 383.45299999999997)" fill="rgb(136,136,136)" stroke="rgba(0,0,0,0)" stroke-width="1" stroke-miterlimit="10"/>
-				<path id="office-path-30" d="M6.563000,56.749000L1.406000,56.749000L1.406000,53.383000L0.552000,53.383000C0.255999,53.370404,0.022511,53.126769,0.022511,52.830500C0.022511,52.534231,0.255999,52.290596,0.552000,52.278000L1.405000,52.278000L1.405000,48.525000L0.552000,48.525000C0.255999,48.512404,0.022511,48.268769,0.022511,47.972500C0.022511,47.676231,0.255999,47.432596,0.552000,47.420000L1.405000,47.420000L1.405000,33.950000L0.552000,33.950000C0.255999,33.937404,0.022511,33.693769,0.022511,33.397500C0.022511,33.101231,0.255999,32.857596,0.552000,32.845000L1.405000,32.845000L1.405000,29.092000L0.552000,29.092000C0.349004,29.100638,0.157619,28.997262,0.053545,28.822761C-0.050529,28.648260,-0.050529,28.430740,0.053545,28.256239C0.157619,28.081738,0.349004,27.978362,0.552000,27.987000L1.405000,27.987000L1.405000,24.233000L0.552000,24.233000C0.266376,24.208620,0.046947,23.969663,0.046947,23.683000C0.046947,23.396337,0.266376,23.157380,0.552000,23.133000L1.405000,23.133000L1.405000,19.375000L0.552000,19.375000C0.255999,19.362404,0.022511,19.118769,0.022511,18.822500C0.022511,18.526231,0.255999,18.282596,0.552000,18.270000L1.405000,18.270000L1.405000,14.517000L0.552000,14.517000C0.255999,14.504404,0.022511,14.260769,0.022511,13.964500C0.022511,13.668231,0.255999,13.424596,0.552000,13.412000L1.405000,13.412000L1.405000,9.659000L0.552000,9.659000C0.255999,9.646404,0.022511,9.402769,0.022511,9.106500C0.022511,8.810231,0.255999,8.566596,0.552000,8.554000L1.405000,8.554000L1.405000,5.154000Q1.405000,4.974000,1.417000,4.799000L0.552000,4.799000C0.344306,4.816728,0.144339,4.715948,0.035033,4.538456C-0.074273,4.360964,-0.074273,4.137036,0.035033,3.959544C0.144339,3.782052,0.344306,3.681272,0.552000,3.699000L1.619000,3.699000C2.268003,1.508284,4.280672,0.005407,6.565500,0.005407C8.850328,0.005407,10.862997,1.508284,11.512000,3.699000L12.512000,3.699000C12.719694,3.681272,12.919661,3.782052,13.028967,3.959544C13.138273,4.137036,13.138273,4.360964,13.028967,4.538456C12.919661,4.715948,12.719694,4.816728,12.512000,4.799000L11.712000,4.799000Q11.724000,4.976000,11.724000,5.154000L11.724000,8.554000L12.500000,8.554000C12.702996,8.545362,12.894381,8.648738,12.998455,8.823239C13.102529,8.997740,13.102529,9.215260,12.998455,9.389761C12.894381,9.564262,12.702996,9.667638,12.500000,9.659000L11.720000,9.659000L11.720000,13.412000L12.500000,13.412000C12.702996,13.403362,12.894381,13.506738,12.998455,13.681239C13.102529,13.855740,13.102529,14.073260,12.998455,14.247761C12.894381,14.422262,12.702996,14.525638,12.500000,14.517000L11.720000,14.517000L11.720000,18.271000L12.500000,18.271000C12.702996,18.262362,12.894381,18.365738,12.998455,18.540239C13.102529,18.714740,13.102529,18.932260,12.998455,19.106761C12.894381,19.281262,12.702996,19.384638,12.500000,19.376000L11.720000,19.376000L11.720000,32.844000L12.500000,32.844000C12.702996,32.835362,12.894381,32.938738,12.998455,33.113239C13.102529,33.287740,13.102529,33.505260,12.998455,33.679761C12.894381,33.854262,12.702996,33.957638,12.500000,33.949000L11.720000,33.949000L11.720000,37.700000L12.500000,37.700000C12.702996,37.691362,12.894381,37.794738,12.998455,37.969239C13.102529,38.143740,13.102529,38.361260,12.998455,38.535761C12.894381,38.710262,12.702996,38.813638,12.500000,38.805000L11.720000,38.805000L11.720000,42.559000L12.500000,42.559000C12.785624,42.583380,13.005053,42.822337,13.005053,43.109000C13.005053,43.395663,12.785624,43.634620,12.500000,43.659000L11.720000,43.659000L11.720000,47.410000L12.500000,47.410000C12.702996,47.401362,12.894381,47.504738,12.998455,47.679239C13.102529,47.853740,13.102529,48.071260,12.998455,48.245761C12.894381,48.420262,12.702996,48.523638,12.500000,48.515000L11.720000,48.515000L11.720000,52.268000L12.500000,52.268000C12.702996,52.259362,12.894381,52.362738,12.998455,52.537239C13.102529,52.711740,13.102529,52.929260,12.998455,53.103761C12.894381,53.278262,12.702996,53.381638,12.500000,53.373000L11.720000,53.373000L11.720000,56.739000Z" transform="matrix(1 0 0 1 429.11099999999999 371.78100000000001)" fill="rgb(111,111,111)" stroke="rgba(0,0,0,0)" stroke-width="1" stroke-miterlimit="10"/>
-				<g id="office-group-18" transform="matrix(1 0 0 1 414.01700000000000 427.23200000000003)">
-					<path id="office-path-31" d="M433.732000,554.069000L436.839000,578.950000L465.552000,578.950000L468.565000,554.069000Z" transform="matrix(1 0 0 1 -429.46699999999998 -544.82700000000000)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
-					<rect id="office-rectangle-34" width="43" height="11" rx="5.500000" ry="5.500000" transform="matrix(1 0 0 1 0.36400000000000 0.12700000000000)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
+					<rect id="office-sidebar" width="52" height="152" rx="0" ry="0" transform="matrix(1 0 0 1 2358.71966200000134 482.08699999999999)" fill="rgb(47,47,47)" stroke="rgb(57,57,57)" stroke-width="1"/>
 				</g>
 			</g>
-			<g id="office-shelf" transform="matrix(1 0 0 1 15.82300000000000 -85.58300000000000)">
-				<g id="office-group-17" transform="matrix(1 0 0 1 140.28700000000001 308.08300000000003)">
-					<path id="office-path-21" d="M162.416000,96.289000L0,96.289000L75.423000,2.300000C76.830532,0.545572,78.958242,-0.475244,81.207500,-0.475244C83.456758,-0.475244,85.584468,0.545572,86.992000,2.300000L162.415000,96.287000Z" transform="matrix(1 0 0 1 0 0.47300000000000)" fill="none" stroke="none" stroke-width="1"/>
-					<path id="office-path-22" d="M154.686000,92.579000L84.100000,4.623000C83.396438,3.745630,82.332623,3.235091,81.208000,3.235091C80.083377,3.235091,79.019562,3.745630,78.316000,4.623000L7.730000,92.579000L154.686000,92.579000M162.415000,96.287000L0,96.287000L75.424000,2.300000C76.831335,0.545602,78.958888,-0.475219,81.208000,-0.475219C83.457112,-0.475219,85.584665,0.545602,86.992000,2.300000L162.416000,96.285000L162.416000,96.285000ZM162.415000,96.287000L162.415000,96.287000Z" transform="matrix(1 0 0 1 0 0.47300000000000)" fill="rgb(47,47,47)" stroke="none" stroke-width="1"/>
-				</g>
-				<circle id="office-ellipse-1" r="6.675000" transform="matrix(1 0 0 1 221.67700000000002 315.43799999999999)" fill="rgb(47,47,47)" stroke="none" stroke-width="1"/>
-				<rect id="office-rectangle-30" width="333.732000" height="9.641000" rx="0" ry="0" transform="matrix(1 0 0 1 55 395.20200000000000)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
-				<rect id="office-rectangle-31" width="4.450000" height="8.158000" rx="2.225000" ry="2.225000" transform="matrix(1 0 0 1 138.06200000000001 398.91000000000003)" fill="rgb(47,47,47)" stroke="none" stroke-width="1"/>
-				<rect id="office-rectangle-32" width="4.450000" height="8.158000" rx="2.225000" ry="2.225000" transform="matrix(1 0 0 1 301.22000000000003 398.91000000000003)" fill="rgb(47,47,47)" stroke="none" stroke-width="1"/>
-				<path id="office-path-23" d="M1.581000,0C2.454162,0,3.162000,0.707838,3.162000,1.581000C3.162000,2.454162,2.454162,3.162000,1.581000,3.162000C0.707838,3.162000,0,2.454162,0,1.581000C0,0.707838,0.707838,0,1.581000,0Z" transform="matrix(1 0 0 1 220.10200000000000 313.85700000000003)" fill="rgb(41,41,41)" stroke="none" stroke-width="1"/>
-			</g>
-			<g id="office-bk-projects" transform="matrix(0 -1 1 0 -259.80300000000000 506.31799999999998)">
-				<rect id="office-rectangle-2" width="25" height="170" rx="0" ry="0" transform="matrix(1 0 0 1 196.31800000000001 487.80300000000000)" fill="rgb(116,116,116)" stroke="none" stroke-width="1"/>
-				<rect id="office-rectangle-3" width="25" height="31" rx="0" ry="0" transform="matrix(1 0 0 1 196.31800000000001 498.80300000000000)" fill="rgb(168,168,167)" stroke="none" stroke-width="1"/>
-			</g>
-			<g id="office-bk-skills" transform="matrix(1 0 0 1 -91 -159)">
-				<rect id="office-rectangle-4" width="20" height="155" rx="0" ry="0" transform="matrix(0 -1 1 0 334 444)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
-			</g>
-			<g id="office-bk-experiences" transform="matrix(0 -1 1 0 -251.14800000000000 426.27800000000002)">
-				<rect id="office-rectangle-1" width="20" height="150" rx="0" ry="0" transform="matrix(1 0 0 1 161.27799999999999 499.14800000000002)" fill="rgb(106,106,106)" stroke="none" stroke-width="1"/>
-				<line id="office-line-1" x1="20" y1="0" x2="0" y2="0" transform="matrix(1 0 0 1 161.27799999999999 522.04300000000001)" fill="none" stroke="rgb(168,168,167)" stroke-width="10" stroke-miterlimit="22.926000"/>
-				<line id="office-line-2" x1="20" y1="0" x2="0" y2="0" transform="matrix(1 0 0 1 161.27799999999999 626.25199999999995)" fill="none" stroke="rgb(168,168,167)" stroke-width="10" stroke-miterlimit="22.926000"/>
-			</g>
-			<g id="office-glass" transform="matrix(1 0 0 1 -466.13200000000001 -91.85800000000000)">
-				<g id="office-group-12" transform="matrix(1 0 0 1 593.06600000000003 379.38400000000001)">
-					<path id="office-path-5" d="M664.730000,380.949000C661.939000,379.314000,645.599000,378.796000,641.990000,383.632000C638.957000,387.698000,643.890000,397.570000,648.548000,399.755000C653.067000,401.873000,662.334000,400.645000,664.858000,396.075000C667.288000,391.673000,667.871000,382.789000,664.730000,380.949000Z" transform="matrix(1 0 0 1 -604.71799999999996 -379.79300000000001)" fill="rgba(255,255,255,0.15)" fill-rule="evenodd" stroke="none" stroke-width="1"/>
-					<path id="office-path-6" d="M596.777000,381.144000C599.559000,379.492000,615.894000,378.883000,619.531000,383.699000C622.587000,387.747000,617.711000,397.648000,613.066000,399.859000C608.557000,402.003000,599.284000,400.827000,596.734000,396.271000C594.279000,391.882000,593.645000,383,596.777000,381.144000Z" transform="matrix(1 0 0 1 -594.65499999999997 -379.82400000000001)" fill="rgba(255,255,255,0.15)" fill-rule="evenodd" stroke="none" stroke-width="1"/>
-				</g>
-				<g id="office-group-13" transform="matrix(1 0 0 1 587.13499999999999 378.95900000000000)">
-					<path id="office-path-7" d="M658.400000,379.256000C655.348000,379.388000,611.706000,379.840000,604.642000,380.124000C597.578000,380.408000,591.042000,388.336000,588.097000,391.945000C585.152000,395.554000,589.743000,395.687000,591.113000,394.004000C594.279000,390.119000,599.479000,383.440000,606.438000,382.916000C613.397000,382.392000,657.805000,382.557000,659.074000,382.567000C660.163000,382.574000,659.869000,379.193000,658.400000,379.256000Z" transform="matrix(1 0 0 1 -587.13499999999999 -379.25500000000000)" fill="rgb(92,92,92)" fill-rule="evenodd" stroke="none" stroke-width="1"/>
-					<path id="office-path-8" d="M590.247000,379.256000C593.300000,379.388000,636.941000,379.840000,644.005000,380.124000C651.069000,380.408000,657.605000,388.336000,660.549000,391.945000C663.493000,395.554000,658.904000,395.687000,657.533000,394.004000C654.368000,390.119000,649.168000,383.440000,642.208000,382.916000C635.248000,382.392000,590.842000,382.557000,589.573000,382.567000C588.483000,382.574000,588.778000,379.193000,590.247000,379.256000Z" transform="matrix(1 0 0 1 -587.51199999999994 -379.25500000000000)" fill="rgb(92,92,92)" fill-rule="evenodd" stroke="none" stroke-width="1"/>
-				</g>
-				<g id="office-group-16" transform="matrix(1 0 0 1 593.06700000000001 379.38400000000001)">
-					<g id="office-group-14" transform="matrix(1 0 0 1 38.13100000000000 0)">
-						<path id="office-path-9" d="M643.484000,382.665000C652.366000,382.638000,661.376000,382.652000,666.634000,382.665000C666.362089,381.961355,665.875378,381.361277,665.243000,380.950000C662.654000,379.432000,648.418000,378.877000,643.484000,382.665000Z" transform="matrix(1 0 0 1 -643.36300000000006 -379.79300000000001)" fill="rgb(92,92,92)" fill-rule="evenodd" stroke="none" stroke-width="1"/>
-						<path id="office-path-10" d="M651.292000,380.208000C653.259000,380.249000,654.785000,380.288000,655.699000,380.325000C660.008000,380.499000,664.126000,383.498000,667.356000,386.634000C667.401229,388.236599,667.267062,389.839229,666.956000,391.412000C663.783000,387.741000,659.385000,383.529000,653.897000,383.118000C652.203000,382.992000,648.297000,382.904000,643.331000,382.847000C645.067000,381.444000,648.056000,380.618000,651.292000,380.208000Z" transform="matrix(1 0 0 1 -643.33000000000004 -379.88099999999997)" fill="rgb(92,92,92)" fill-rule="evenodd" stroke="none" stroke-width="1"/>
-					</g>
-					<g id="office-group-15" transform="matrix(1 0 0 1 0 0.11600000000000)">
-						<path id="office-path-11" d="M610.052000,380.226000C608.397000,380.262000,607.103000,380.297000,606.293000,380.326000C601.999000,380.499000,597.893000,383.478000,594.671000,386.603000C594.615576,388.209574,594.743062,389.817240,595.051000,391.395000C598.223000,387.729000,602.616000,383.530000,608.095000,383.119000C609.784000,382.993000,613.674000,382.906000,618.614000,382.848000C616.748000,381.392000,613.500000,380.582000,610.052000,380.226000Z" transform="matrix(1 0 0 1 -594.65599999999995 -380.00099999999998)" fill="rgb(92,92,92)" fill-rule="evenodd" stroke="none" stroke-width="1"/>
-						<path id="office-path-12" d="M618.711000,382.700000C609.892000,382.674000,600.953000,382.687000,595.693000,382.700000C595.962388,382.065186,596.415020,381.525161,596.993000,381.149000C599.567000,379.619000,613.706000,378.982000,618.711000,382.700000Z" transform="matrix(1 0 0 1 -594.87500000000000 -379.94000000000000)" fill="rgb(92,92,92)" fill-rule="evenodd" stroke="none" stroke-width="1"/>
-					</g>
-				</g>
-				<path id="office-path-13" d="M642.680000,401.753000Q643.287000,401.744000,643.937000,401.693000C653.454000,400.944000,655.654000,396.965000,656.549000,391.939000C657.531000,386.421000,657.539000,384.500000,659.049000,383.988000C660.162000,383.613000,660.394000,382.379000,660.306000,380.943000C660.218000,379.507000,660.161000,379.352000,658.277000,378.751000C656.804000,378.281000,648.742000,377.609000,642.677000,377.951000L642.677000,379.439000C647.436000,379.207000,652.035000,379.739000,653.396000,380.539000C656.526000,382.379000,655.945000,391.264000,653.523000,395.666000C651.813000,398.772000,646.999000,400.335000,642.677000,400.352000ZM624.361000,380.874000C622.255000,380.927000,613.561000,378.623000,607.417000,378.133000Q606.830000,378.087000,606.217000,378.056000L606.217000,379.543000C611.169000,379.760000,616.292000,380.806000,618.137000,383.258000C621.182000,387.307000,616.323000,397.209000,611.695000,399.419000C609.965119,400.155476,608.096356,400.508897,606.217000,400.455000L606.217000,401.855000C614.650000,401.972000,617.544000,396.361000,618.505000,394.498000C620.299000,391.028000,619.732000,386.251000,624.449000,386.239000C629.166000,386.227000,628.710000,390.919000,630.523000,394.380000C631.491000,396.231000,634.323000,401.872000,642.684000,401.754000L642.684000,400.354000C640.831210,400.411266,638.987705,400.070255,637.278000,399.354000C632.636000,397.169000,627.721000,387.296000,630.744000,383.230000C632.580000,380.761000,637.720000,379.687000,642.684000,379.445000L642.684000,377.950000C642.256000,377.974000,641.836000,378.003000,641.431000,378.038000C635.931000,378.506000,629.316000,380.752000,624.361000,380.875000ZM606.213000,378.056000C600.138000,377.742000,592.042000,378.463000,590.567000,378.943000C588.686000,379.554000,588.631000,379.708000,588.552000,381.143000C588.473000,382.578000,588.710000,383.812000,589.824000,384.181000C591.342000,384.681000,591.360000,386.605000,592.373000,392.118000C593.296000,397.139000,595.520000,401.106000,605.040000,401.801000C605.440000,401.830000,605.834000,401.846000,606.212000,401.852000L606.212000,400.452000C601.912000,400.442000,597.134000,398.906000,595.412000,395.828000C592.966000,391.439000,592.335000,382.559000,595.455000,380.700000C596.816000,379.890000,601.431000,379.330000,606.208000,379.541000Z" transform="matrix(1 0 0 1 -0.29600000000000 0)" fill="rgb(118,118,118)" fill-rule="evenodd" stroke="none" stroke-width="1"/>
-			</g>
-			<g id="office-board" transform="matrix(1 0 0 1 -401.67599999999999 -50)">
-				<g id="office-group-1" transform="matrix(1 0 0 1 1268 303)" opacity="0.6">
-					<rect id="office-rectangle-5" width="246" height="34" rx="0" ry="0" transform="matrix(1 0 0 1 -0.32400000000000 0)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
-					<rect id="office-rectangle-6" width="246" height="118" rx="0" ry="0" transform="matrix(1 0 0 1 -0.32400000000000 34)" fill="rgb(253,253,251)" stroke="none" stroke-width="1"/>
-					<line id="office-line-3" x1="0" y1="0" x2="0" y2="118" transform="matrix(1 0 0 1 122.67600000000000 34)" fill="none" stroke="rgb(232,235,237)" stroke-width="2" stroke-miterlimit="10"/>
-					<line id="office-line-4" x1="0" y1="0" x2="0" y2="118" transform="matrix(1 0 0 1 61.67600000000000 34)" fill="none" stroke="rgb(232,235,237)" stroke-width="2" stroke-miterlimit="10"/>
-					<line id="office-line-5" x1="0" y1="0" x2="0" y2="118" transform="matrix(1 0 0 1 184.67599999999999 34)" fill="none" stroke="rgb(232,235,237)" stroke-width="2" stroke-miterlimit="10"/>
-					<line id="office-line-6" x1="0" y1="34" x2="0" y2="0" transform="matrix(1 0 0 1 61.67600000000000 0)" fill="none" stroke="rgb(90,90,90)" stroke-width="2" stroke-miterlimit="10"/>
-					<line id="office-line-7" x1="0" y1="34" x2="0" y2="0" transform="matrix(1 0 0 1 122.67600000000000 0)" fill="none" stroke="rgb(90,90,90)" stroke-width="2" stroke-miterlimit="10"/>
-					<line id="office-line-8" x1="0" y1="34" x2="0" y2="0" transform="matrix(1 0 0 1 184.67599999999999 0)" fill="none" stroke="rgb(90,90,90)" stroke-width="2" stroke-miterlimit="10"/>
-					<text id="office-backlog" dx="0" dy="0" font-family="PTMono-Bold, PT Mono" font-size="7" font-weight="bold" transform="matrix(1 0 0 1 16.67600000000000 19)" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
-						<tspan id="office-tspan1" x="0" y="0" font-family="PTMono-Bold, PT Mono" font-size="7" font-weight="bold" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
-							<![CDATA[BACKLOG]]>
+			<g id="office-imac-screen-name_to" transform="translate(-1882,-136)">
+				<g id="office-imac-screen-name" transform="translate(0,0)">
+					<rect id="office-bg2" width="286" height="152" rx="0" ry="0" transform="matrix(1 0 0 1 2358.71966200000134 482.08699999999999)" fill="rgb(255,255,255)" stroke="rgb(57,57,57)" stroke-width="0"/>
+					<text id="office-claudio" dx="0" dy="0" font-family="Roboto Mono" font-size="27" transform="matrix(1 0 0 1 2438.37282720499934 555.63843749999978)" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
+						<tspan id="office-tspan1" x="0" y="0" font-family="Roboto Mono" font-size="30" fill="rgb(30,30,30)" stroke="none" stroke-width="1">
+							<![CDATA[CLAUDIO]]>
 						</tspan>
 					</text>
-					<text id="office-to-do" dx="0" dy="0" font-family="PTMono-Bold, PT Mono" font-size="6" font-weight="bold" transform="matrix(1 0 0 1 81.67600000000000 18)" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
-						<tspan id="office-tspan2" x="0" y="0" font-family="PTMono-Bold, PT Mono" font-size="6" font-weight="bold" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
-							<![CDATA[TO DO]]>
-						</tspan>
-					</text>
-					<text id="office-in-progress" dx="0" dy="0" font-family="PTMono-Bold, PT Mono" font-size="6" font-weight="bold" transform="matrix(1 0 0 1 130.67599999999999 18)" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
-						<tspan id="office-tspan3" x="0" y="0" font-family="PTMono-Bold, PT Mono" font-size="6" font-weight="bold" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
-							<![CDATA[IN PROGRESS]]>
-						</tspan>
-					</text>
-					<text id="office-done" dx="0" dy="0" font-family="PTMono-Bold, PT Mono" font-size="6" font-weight="bold" transform="matrix(1 0 0 1 206.67599999999999 18)" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
-						<tspan id="office-tspan4" x="0" y="0" font-family="PTMono-Bold, PT Mono" font-size="6" font-weight="bold" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
-							<![CDATA[DONE]]>
-						</tspan>
-					</text>
-				</g>
-				<g id="office-group-2" transform="matrix(1 0 0 1 1280.27999999999997 345.99299999999999)">
-					<rect id="office-rectangle-7" width="36" height="21" rx="0" ry="0" transform="matrix(1 0 0 1 0.39200000000000 4.00700000000000)" fill="rgb(213,213,213)" stroke="none" stroke-width="1"/>
-					<rect id="office-rectangle-8" width="13" height="8" rx="0" ry="0" transform="matrix(1 0 0 1 12.39200000000000 0.00700000000000)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
-				</g>
-				<g id="office-group-3" transform="matrix(1 0 0 1 1280.27999999999997 378.06799999999998)">
-					<rect id="office-rectangle-9" width="36" height="21" rx="0" ry="0" transform="matrix(1 0 0 1 0.39200000000000 3.93200000000000)" fill="rgb(213,213,213)" stroke="none" stroke-width="1"/>
-					<rect id="office-rectangle-10" width="13" height="8" rx="0" ry="0" transform="matrix(1 0 0 1 12.39200000000000 -0.06800000000000)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
-				</g>
-				<g id="office-group-4" transform="matrix(1 0 0 1 1341.70000000000005 345.99299999999999)">
-					<rect id="office-rectangle-11" width="37" height="21" rx="0" ry="0" transform="matrix(1 0 0 1 -0.02700000000000 4.00700000000000)" fill="rgb(213,213,213)" stroke="none" stroke-width="1"/>
-					<rect id="office-rectangle-12" width="13" height="8" rx="0" ry="0" transform="matrix(1 0 0 1 11.97300000000000 0.00700000000000)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
-				</g>
-				<g id="office-group-5" transform="matrix(1 0 0 1 1341.70000000000005 378.06799999999998)">
-					<rect id="office-rectangle-13" width="37" height="21" rx="0" ry="0" transform="matrix(1 0 0 1 -0.02700000000000 3.93200000000000)" fill="rgb(213,213,213)" stroke="none" stroke-width="1"/>
-					<rect id="office-rectangle-14" width="13" height="8" rx="0" ry="0" transform="matrix(1 0 0 1 11.97300000000000 -0.06800000000000)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
-				</g>
-				<g id="office-group-6" transform="matrix(1 0 0 1 1341.70000000000005 410.14200000000000)">
-					<rect id="office-rectangle-15" width="37" height="21" rx="0" ry="0" transform="matrix(1 0 0 1 -0.02700000000000 3.85800000000000)" fill="rgb(213,213,213)" stroke="none" stroke-width="1"/>
-					<rect id="office-rectangle-16" width="13" height="8" rx="0" ry="0" transform="matrix(1 0 0 1 11.97300000000000 -0.14200000000000)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
-				</g>
-				<g id="office-group-7" transform="matrix(1 0 0 1 1403.11999999999989 345.99299999999999)">
-					<rect id="office-rectangle-17" width="37" height="21" rx="0" ry="0" transform="matrix(1 0 0 1 -0.44600000000000 4.00700000000000)" fill="rgb(213,213,213)" stroke="none" stroke-width="1"/>
-					<rect id="office-rectangle-18" width="13" height="8" rx="0" ry="0" transform="matrix(1 0 0 1 12.55400000000000 0.00700000000000)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
-				</g>
-				<g id="office-group-8" transform="matrix(1 0 0 1 1464.53999999999996 345.99299999999999)">
-					<rect id="office-rectangle-19" width="37" height="21" rx="0" ry="0" transform="matrix(1 0 0 1 0.13500000000000 4.00700000000000)" fill="rgb(213,213,213)" stroke="none" stroke-width="1"/>
-					<rect id="office-rectangle-20" width="13" height="8" rx="0" ry="0" transform="matrix(1 0 0 1 12.13500000000000 0.00700000000000)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
-				</g>
-				<g id="office-group-9" transform="matrix(1 0 0 1 1464.53999999999996 378.06799999999998)">
-					<rect id="office-rectangle-21" width="37" height="21" rx="0" ry="0" transform="matrix(1 0 0 1 0.13500000000000 3.93200000000000)" fill="rgb(213,213,213)" stroke="none" stroke-width="1"/>
-					<rect id="office-rectangle-22" width="13" height="8" rx="0" ry="0" transform="matrix(1 0 0 1 12.13500000000000 -0.06800000000000)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
-				</g>
-			</g>
-			<g id="office-frame" transform="matrix(1 0 0 1 -662 -114.15900000000001)">
-				<g id="office-group-10" transform="matrix(1 0 0 1 1199.08999999999992 298.15899999999999)" opacity="0.198">
-					<path id="office-path-3" d="M74.923000,1.835000C76.559353,0.934748,78.542647,0.934748,80.179000,1.835000L129.568000,29.053000C131.707658,30.220240,132.777427,32.694645,132.162000,35.053000C131.529319,37.413784,129.386077,39.052419,126.942000,39.044000L28.165000,39.044000C25.718209,39.054334,23.572015,37.413779,22.940000,35.050000C22.324573,32.691645,23.394342,30.217240,25.534000,29.050000Z" transform="matrix(1 0 0 1 -22.76000000000000 -1.15900000000000)" fill="none" stroke="none" stroke-width="1"/>
-					<path id="office-path-4" d="M77.551000,3.825000C77.091536,3.825297,76.639578,3.941554,76.237000,4.163000L26.845000,31.381000C25.743868,31.935671,25.196746,33.198261,25.545000,34.381000C25.827041,35.584323,26.920852,36.420077,28.156000,36.376000L126.936000,36.376000C128.171148,36.420077,129.264959,35.584323,129.547000,34.381000C129.895254,33.198261,129.348132,31.935671,128.247000,31.381000L78.865000,4.163000C78.462438,3.941514,78.010470,3.825254,77.551000,3.825000M77.551000,1.159000C78.470109,1.159164,79.374210,1.392070,80.179000,1.836000L129.568000,29.054000C131.710465,30.228842,132.777676,32.711644,132.155930,35.074659C131.534183,37.437674,129.383236,39.073728,126.940000,39.042000L28.161000,39.042000C25.717764,39.073728,23.566817,37.437674,22.945070,35.074659C22.323324,32.711644,23.390535,30.228842,25.533000,29.054000L74.922000,1.835000C75.726975,1.391766,76.631065,1.159552,77.550000,1.160000Z" transform="matrix(1 0 0 1 -22.75700000000000 -1.15900000000000)" fill="rgb(160,160,160)" stroke="none" stroke-width="1"/>
-				</g>
-				<g id="office-group-11" transform="matrix(1 0 0 1 1193 321.83600000000001)">
-					<g id="office-rectangle-23" transform="matrix(1 0 0 1 0 0.32300000000000)">
-						<rect id="office-rect1" width="122" height="45" rx="4" ry="4" fill="rgb(116,116,116)" stroke="none" stroke-width="1"/>
-						<rect id="office-rect2" width="121" height="44" rx="3.500000" ry="3.500000" transform="matrix(1 0 0 1 0.50000000000000 0.50000000000000)" fill="none" stroke="rgb(116,116,116)" stroke-width="1"/>
-					</g>
-					<text id="office-office2" dx="0" dy="0" font-family="PTMono-Regular, PT Mono" font-size="27" transform="matrix(1 0 0 1 13 36.32300000000000)" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
-						<tspan id="office-tspan5" x="0" y="0" font-family="PTMono-Regular, PT Mono" font-size="27" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
-							<![CDATA[OFFICE]]>
-						</tspan>
-					</text>
-					<text id="office-the" dx="0" dy="0" font-family="PTMono-Regular, PT Mono" font-size="6" transform="matrix(1 0 0 1 55 11.32300000000000)" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
-						<tspan id="office-tspan6" x="0" y="0" font-family="PTMono-Regular, PT Mono" font-size="6" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
-							<![CDATA[THE]]>
+					<text id="office-bonfati" dx="0" dy="0" font-family="Roboto Mono" font-size="27" transform="matrix(1 0 0 1 2438.37282720499934 585.63843749999978)" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
+						<tspan id="office-tspan2" x="0" y="0" font-family="Roboto Mono" font-size="30" fill="rgb(30,30,30)" stroke="none" stroke-width="1">
+							<![CDATA[BONFATI]]>
 						</tspan>
 					</text>
 				</g>
 			</g>
-			<g id="office-lamp">
-				<path id="office-polygon-1" d="M571.500000,0L1143,452L0,452Z" transform="matrix(1 0 0 1 20 80)" opacity="0.124" fill="url(#office-polygon-1-fill)" stroke="none" stroke-width="1"/>
-				<line id="office-line-9" x1="0" y1="73.500000" x2="0" y2="0" transform="matrix(1 0 0 1 591.50000000000000 0)" fill="none" stroke="rgb(64,64,64)" stroke-width="3"/>
-				<g id="office-lamp2" transform="matrix(1 0 0 1 134.10100000000000 73.45900000000000)">
-					<g id="office-group_20" transform="matrix(1 0 0 1 380.10700000000003 -0.45900000000000)">
-						<path id="office-path_12" d="M126.029000,-59.563000L97.300000,-59.563000L97.300000,-72.100000C97.309917,-80.048789,103.751211,-86.490083,111.700000,-86.500000L111.700000,-86.500000C119.648789,-86.490083,126.090083,-80.048789,126.100000,-72.100000Z" transform="matrix(1 0 0 1 -35.04400000000000 86.50000000000000)" fill="rgb(170,170,170)" stroke="none" stroke-width="1"/>
-						<path id="office-path_13" d="M0,-9.253000C0,-9.253000,1.344000,-61.400000,75.053000,-61.400000C148.762000,-61.400000,154.585000,-9.253000,154.585000,-9.253000L0,-9.253000Z" transform="matrix(1 0 0 1 0 77.45999999999999)" fill="rgb(255,255,255)" stroke="none" stroke-width="1"/>
-					</g>
+			<mask id="office-mask1" mask-type="luminance">
+				<rect id="office-imac-mask" width="286" height="152" rx="0" ry="0" transform="matrix(1 0 0 1 766.71966200000236 346.08699999500004)" fill="rgb(255,255,255)" stroke="rgb(255,255,255)" stroke-width="1"/>
+			</mask>
+		</g>
+		<g id="office-vase" transform="matrix(1 0 0 1 451.61900000000003 119.73300000000000)">
+			<path id="office-path-28" d="M5.271000,18.773000C3.167900,18.773000,1.463000,17.068100,1.463000,14.965000L1.463000,13.522000L0.552000,13.522000C0.255999,13.509404,0.022511,13.265769,0.022511,12.969500C0.022511,12.673231,0.255999,12.429596,0.552000,12.417000L1.463000,12.417000L1.463000,8.663000L0.553000,8.663000C0.345306,8.680728,0.145339,8.579948,0.036033,8.402456C-0.073273,8.224964,-0.073273,8.001036,0.036033,7.823544C0.145339,7.646052,0.345306,7.545272,0.553000,7.563000L1.463000,7.563000L1.463000,3.809000L0.552000,3.809000C0.266376,3.784620,0.046947,3.545663,0.046947,3.259000C0.046947,2.972337,0.266376,2.733380,0.552000,2.709000L1.627000,2.709000C2.174587,0.903992,3.961062,-0.228139,5.827083,0.047307C7.693103,0.322752,9.076283,1.922761,9.079000,3.809000L9.079000,11.158000L20.235000,11.158000L20.235000,14.966000L20.235000,14.966000L20.235000,18.774000Z" transform="matrix(1 0 0 1 732.93866200000002 395.71600000000001)" fill="rgb(136,136,136)" stroke="rgba(0,0,0,0)" stroke-width="1" stroke-miterlimit="10"/>
+			<path id="office-path-29" d="M0,18.771000L0,14.963000L0,14.963000L0,11.156000L11.157000,11.156000L11.157000,3.807000C11.154993,1.890235,12.577993,0.270724,14.479091,0.026141C16.380188,-0.218442,18.166775,0.988145,18.650000,2.843000L19.684000,2.843000C19.891694,2.825272,20.091661,2.926052,20.200967,3.103544C20.310273,3.281036,20.310273,3.504964,20.200967,3.682456C20.091661,3.859948,19.891694,3.960728,19.684000,3.943000L18.773000,3.943000L18.773000,7.700000L19.684000,7.700000C19.891694,7.682272,20.091661,7.783052,20.200967,7.960544C20.310273,8.138036,20.310273,8.361964,20.200967,8.539456C20.091661,8.716948,19.891694,8.817728,19.684000,8.800000L18.773000,8.800000L18.773000,12.553000L19.684000,12.553000C19.980001,12.565596,20.213489,12.809231,20.213489,13.105500C20.213489,13.401769,19.980001,13.645404,19.684000,13.658000L18.773000,13.658000L18.773000,14.958000C18.773265,15.968026,18.372152,16.936760,17.657956,17.650956C16.943760,18.365152,15.975026,18.766265,14.965000,18.766000Z" transform="matrix(1 0 0 1 753.17366199999992 383.45299999999997)" fill="rgb(136,136,136)" stroke="rgba(0,0,0,0)" stroke-width="1" stroke-miterlimit="10"/>
+			<path id="office-path-30" d="M6.563000,56.749000L1.406000,56.749000L1.406000,53.383000L0.552000,53.383000C0.255999,53.370404,0.022511,53.126769,0.022511,52.830500C0.022511,52.534231,0.255999,52.290596,0.552000,52.278000L1.405000,52.278000L1.405000,48.525000L0.552000,48.525000C0.255999,48.512404,0.022511,48.268769,0.022511,47.972500C0.022511,47.676231,0.255999,47.432596,0.552000,47.420000L1.405000,47.420000L1.405000,33.950000L0.552000,33.950000C0.255999,33.937404,0.022511,33.693769,0.022511,33.397500C0.022511,33.101231,0.255999,32.857596,0.552000,32.845000L1.405000,32.845000L1.405000,29.092000L0.552000,29.092000C0.349004,29.100638,0.157619,28.997262,0.053545,28.822761C-0.050529,28.648260,-0.050529,28.430740,0.053545,28.256239C0.157619,28.081738,0.349004,27.978362,0.552000,27.987000L1.405000,27.987000L1.405000,24.233000L0.552000,24.233000C0.266376,24.208620,0.046947,23.969663,0.046947,23.683000C0.046947,23.396337,0.266376,23.157380,0.552000,23.133000L1.405000,23.133000L1.405000,19.375000L0.552000,19.375000C0.255999,19.362404,0.022511,19.118769,0.022511,18.822500C0.022511,18.526231,0.255999,18.282596,0.552000,18.270000L1.405000,18.270000L1.405000,14.517000L0.552000,14.517000C0.255999,14.504404,0.022511,14.260769,0.022511,13.964500C0.022511,13.668231,0.255999,13.424596,0.552000,13.412000L1.405000,13.412000L1.405000,9.659000L0.552000,9.659000C0.255999,9.646404,0.022511,9.402769,0.022511,9.106500C0.022511,8.810231,0.255999,8.566596,0.552000,8.554000L1.405000,8.554000L1.405000,5.154000Q1.405000,4.974000,1.417000,4.799000L0.552000,4.799000C0.344306,4.816728,0.144339,4.715948,0.035033,4.538456C-0.074273,4.360964,-0.074273,4.137036,0.035033,3.959544C0.144339,3.782052,0.344306,3.681272,0.552000,3.699000L1.619000,3.699000C2.268003,1.508284,4.280672,0.005407,6.565500,0.005407C8.850328,0.005407,10.862997,1.508284,11.512000,3.699000L12.512000,3.699000C12.719694,3.681272,12.919661,3.782052,13.028967,3.959544C13.138273,4.137036,13.138273,4.360964,13.028967,4.538456C12.919661,4.715948,12.719694,4.816728,12.512000,4.799000L11.712000,4.799000Q11.724000,4.976000,11.724000,5.154000L11.724000,8.554000L12.500000,8.554000C12.702996,8.545362,12.894381,8.648738,12.998455,8.823239C13.102529,8.997740,13.102529,9.215260,12.998455,9.389761C12.894381,9.564262,12.702996,9.667638,12.500000,9.659000L11.720000,9.659000L11.720000,13.412000L12.500000,13.412000C12.702996,13.403362,12.894381,13.506738,12.998455,13.681239C13.102529,13.855740,13.102529,14.073260,12.998455,14.247761C12.894381,14.422262,12.702996,14.525638,12.500000,14.517000L11.720000,14.517000L11.720000,18.271000L12.500000,18.271000C12.702996,18.262362,12.894381,18.365738,12.998455,18.540239C13.102529,18.714740,13.102529,18.932260,12.998455,19.106761C12.894381,19.281262,12.702996,19.384638,12.500000,19.376000L11.720000,19.376000L11.720000,32.844000L12.500000,32.844000C12.702996,32.835362,12.894381,32.938738,12.998455,33.113239C13.102529,33.287740,13.102529,33.505260,12.998455,33.679761C12.894381,33.854262,12.702996,33.957638,12.500000,33.949000L11.720000,33.949000L11.720000,37.700000L12.500000,37.700000C12.702996,37.691362,12.894381,37.794738,12.998455,37.969239C13.102529,38.143740,13.102529,38.361260,12.998455,38.535761C12.894381,38.710262,12.702996,38.813638,12.500000,38.805000L11.720000,38.805000L11.720000,42.559000L12.500000,42.559000C12.785624,42.583380,13.005053,42.822337,13.005053,43.109000C13.005053,43.395663,12.785624,43.634620,12.500000,43.659000L11.720000,43.659000L11.720000,47.410000L12.500000,47.410000C12.702996,47.401362,12.894381,47.504738,12.998455,47.679239C13.102529,47.853740,13.102529,48.071260,12.998455,48.245761C12.894381,48.420262,12.702996,48.523638,12.500000,48.515000L11.720000,48.515000L11.720000,52.268000L12.500000,52.268000C12.702996,52.259362,12.894381,52.362738,12.998455,52.537239C13.102529,52.711740,13.102529,52.929260,12.998455,53.103761C12.894381,53.278262,12.702996,53.381638,12.500000,53.373000L11.720000,53.373000L11.720000,56.739000Z" transform="matrix(1 0 0 1 746.61066199999993 371.78100000000001)" fill="rgb(111,111,111)" stroke="rgba(0,0,0,0)" stroke-width="1" stroke-miterlimit="10"/>
+			<g id="office-group-18" transform="matrix(1 0 0 1 414.01700000000000 427.23200000000003)">
+				<path id="office-path-31" d="M433.732000,554.069000L436.839000,578.950000L465.552000,578.950000L468.565000,554.069000Z" transform="matrix(1 0 0 1 -111.96733800000004 -544.82700000000000)" fill="rgb(162,162,162)" stroke="none" stroke-width="1"/>
+				<rect id="office-rectangle-34" width="43" height="11" rx="5.500000" ry="5.500000" transform="matrix(1 0 0 1 317.86366199999998 0.12700000000000)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
+			</g>
+		</g>
+		<g id="office-shelf" transform="matrix(1 0 0 1 -84.17699999999999 -55.58300000000000)">
+			<g id="office-group-17" transform="matrix(1 0 0 1 140.28700000000001 308.08300000000003)">
+				<path id="office-path-21" d="M162.416000,96.289000L0,96.289000L75.423000,2.300000C76.830532,0.545572,78.958242,-0.475244,81.207500,-0.475244C83.456758,-0.475244,85.584468,0.545572,86.992000,2.300000L162.415000,96.287000Z" transform="matrix(1 0 0 1 317.49966199999994 0.47300000000000)" fill="none" stroke="none" stroke-width="1"/>
+				<path id="office-path-22" d="M154.686000,92.579000L84.100000,4.623000C83.396438,3.745630,82.332623,3.235091,81.208000,3.235091C80.083377,3.235091,79.019562,3.745630,78.316000,4.623000L7.730000,92.579000L154.686000,92.579000M162.415000,96.287000L0,96.287000L75.424000,2.300000C76.831335,0.545602,78.958888,-0.475219,81.208000,-0.475219C83.457112,-0.475219,85.584665,0.545602,86.992000,2.300000L162.416000,96.285000L162.416000,96.285000ZM162.415000,96.287000L162.415000,96.287000Z" transform="matrix(1 0 0 1 317.49966199999994 0.47300000000000)" fill="rgb(47,47,47)" stroke="none" stroke-width="1"/>
+			</g>
+			<circle id="office-ellipse-1" r="6.675000" transform="matrix(1 0 0 1 539.17666199999985 315.43799999999999)" fill="rgb(47,47,47)" stroke="none" stroke-width="1"/>
+			<rect id="office-rectangle-30" width="333.732000" height="9.641000" rx="0" ry="0" transform="matrix(1 0 0 1 372.49966199999994 395.20200000000000)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
+			<rect id="office-rectangle-31" width="4.450000" height="8.158000" rx="2.225000" ry="2.225000" transform="matrix(1 0 0 1 455.56166199999996 398.91000000000003)" fill="rgb(47,47,47)" stroke="none" stroke-width="1"/>
+			<rect id="office-rectangle-32" width="4.450000" height="8.158000" rx="2.225000" ry="2.225000" transform="matrix(1 0 0 1 618.71966199999997 398.91000000000003)" fill="rgb(47,47,47)" stroke="none" stroke-width="1"/>
+			<path id="office-path-23" d="M1.581000,0C2.454162,0,3.162000,0.707838,3.162000,1.581000C3.162000,2.454162,2.454162,3.162000,1.581000,3.162000C0.707838,3.162000,0,2.454162,0,1.581000C0,0.707838,0.707838,0,1.581000,0Z" transform="matrix(1 0 0 1 537.60166199999992 313.85700000000003)" fill="rgb(41,41,41)" stroke="none" stroke-width="1"/>
+		</g>
+		<g id="office-bk-projects" transform="matrix(0 -1 1 0 -359.80300000000000 536.31799999999998)">
+			<rect id="office-rectangle-2" width="25" height="170" rx="0" ry="0" transform="matrix(1 0 0 1 196.31800000000001 805.30266199999994)" fill="rgb(116,116,116)" stroke="none" stroke-width="1"/>
+			<rect id="office-rectangle-3" width="25" height="31" rx="0" ry="0" transform="matrix(1 0 0 1 196.31800000000001 816.30266199999994)" fill="rgb(168,168,167)" stroke="none" stroke-width="1"/>
+		</g>
+		<g id="office-bk-skills" transform="matrix(1 0 0 1 -191 -129)">
+			<rect id="office-rectangle-4" width="20" height="155" rx="0" ry="0" transform="matrix(0 -1 1 0 651.49966199999994 444)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
+		</g>
+		<g id="office-bk-experiences" transform="matrix(0 -1 1 0 -351.14800000000002 456.27800000000002)">
+			<rect id="office-rectangle-1" width="20" height="150" rx="0" ry="0" transform="matrix(1 0 0 1 161.27799999999999 816.64766199999997)" fill="rgb(106,106,106)" stroke="none" stroke-width="1"/>
+			<line id="office-line-1" x1="20" y1="0" x2="0" y2="0" transform="matrix(1 0 0 1 161.27799999999999 839.54266199999995)" fill="none" stroke="rgb(168,168,167)" stroke-width="10" stroke-miterlimit="22.926000"/>
+			<line id="office-line-2" x1="20" y1="0" x2="0" y2="0" transform="matrix(1 0 0 1 161.27799999999999 943.75166199999990)" fill="none" stroke="rgb(168,168,167)" stroke-width="10" stroke-miterlimit="22.926000"/>
+		</g>
+		<g id="office-glass" transform="matrix(1 0 0 1 -566.13200000000006 -61.85800000000000)">
+			<g id="office-group-12" transform="matrix(1 0 0 1 593.06600000000003 379.38400000000001)">
+				<path id="office-path-5" d="M664.730000,380.949000C661.939000,379.314000,645.599000,378.796000,641.990000,383.632000C638.957000,387.698000,643.890000,397.570000,648.548000,399.755000C653.067000,401.873000,662.334000,400.645000,664.858000,396.075000C667.288000,391.673000,667.871000,382.789000,664.730000,380.949000Z" transform="matrix(1 0 0 1 -287.21833800000002 -379.79300000000001)" fill="rgba(255,255,255,0.15)" fill-rule="evenodd" stroke="none" stroke-width="1"/>
+				<path id="office-path-6" d="M596.777000,381.144000C599.559000,379.492000,615.894000,378.883000,619.531000,383.699000C622.587000,387.747000,617.711000,397.648000,613.066000,399.859000C608.557000,402.003000,599.284000,400.827000,596.734000,396.271000C594.279000,391.882000,593.645000,383,596.777000,381.144000Z" transform="matrix(1 0 0 1 -277.15533800000003 -379.82400000000001)" fill="rgba(255,255,255,0.15)" fill-rule="evenodd" stroke="none" stroke-width="1"/>
+			</g>
+			<g id="office-group-13" transform="matrix(1 0 0 1 587.13499999999999 378.95900000000000)">
+				<path id="office-path-7" d="M658.400000,379.256000C655.348000,379.388000,611.706000,379.840000,604.642000,380.124000C597.578000,380.408000,591.042000,388.336000,588.097000,391.945000C585.152000,395.554000,589.743000,395.687000,591.113000,394.004000C594.279000,390.119000,599.479000,383.440000,606.438000,382.916000C613.397000,382.392000,657.805000,382.557000,659.074000,382.567000C660.163000,382.574000,659.869000,379.193000,658.400000,379.256000Z" transform="matrix(1 0 0 1 -269.63533800000005 -379.25500000000000)" fill="rgb(92,92,92)" fill-rule="evenodd" stroke="none" stroke-width="1"/>
+				<path id="office-path-8" d="M590.247000,379.256000C593.300000,379.388000,636.941000,379.840000,644.005000,380.124000C651.069000,380.408000,657.605000,388.336000,660.549000,391.945000C663.493000,395.554000,658.904000,395.687000,657.533000,394.004000C654.368000,390.119000,649.168000,383.440000,642.208000,382.916000C635.248000,382.392000,590.842000,382.557000,589.573000,382.567000C588.483000,382.574000,588.778000,379.193000,590.247000,379.256000Z" transform="matrix(1 0 0 1 -270.01233800000000 -379.25500000000000)" fill="rgb(92,92,92)" fill-rule="evenodd" stroke="none" stroke-width="1"/>
+			</g>
+			<g id="office-group-16" transform="matrix(1 0 0 1 593.06700000000001 379.38400000000001)">
+				<g id="office-group-14" transform="matrix(1 0 0 1 38.13100000000000 0)">
+					<path id="office-path-9" d="M643.484000,382.665000C652.366000,382.638000,661.376000,382.652000,666.634000,382.665000C666.362089,381.961355,665.875378,381.361277,665.243000,380.950000C662.654000,379.432000,648.418000,378.877000,643.484000,382.665000Z" transform="matrix(1 0 0 1 -325.86333800000011 -379.79300000000001)" fill="rgb(92,92,92)" fill-rule="evenodd" stroke="none" stroke-width="1"/>
+					<path id="office-path-10" d="M651.292000,380.208000C653.259000,380.249000,654.785000,380.288000,655.699000,380.325000C660.008000,380.499000,664.126000,383.498000,667.356000,386.634000C667.401229,388.236599,667.267062,389.839229,666.956000,391.412000C663.783000,387.741000,659.385000,383.529000,653.897000,383.118000C652.203000,382.992000,648.297000,382.904000,643.331000,382.847000C645.067000,381.444000,648.056000,380.618000,651.292000,380.208000Z" transform="matrix(1 0 0 1 -325.83033800000010 -379.88099999999997)" fill="rgb(92,92,92)" fill-rule="evenodd" stroke="none" stroke-width="1"/>
+				</g>
+				<g id="office-group-15" transform="matrix(1 0 0 1 0 0.11600000000000)">
+					<path id="office-path-11" d="M610.052000,380.226000C608.397000,380.262000,607.103000,380.297000,606.293000,380.326000C601.999000,380.499000,597.893000,383.478000,594.671000,386.603000C594.615576,388.209574,594.743062,389.817240,595.051000,391.395000C598.223000,387.729000,602.616000,383.530000,608.095000,383.119000C609.784000,382.993000,613.674000,382.906000,618.614000,382.848000C616.748000,381.392000,613.500000,380.582000,610.052000,380.226000Z" transform="matrix(1 0 0 1 -277.15633800000001 -380.00099999999998)" fill="rgb(92,92,92)" fill-rule="evenodd" stroke="none" stroke-width="1"/>
+					<path id="office-path-12" d="M618.711000,382.700000C609.892000,382.674000,600.953000,382.687000,595.693000,382.700000C595.962388,382.065186,596.415020,381.525161,596.993000,381.149000C599.567000,379.619000,613.706000,378.982000,618.711000,382.700000Z" transform="matrix(1 0 0 1 -277.37533800000006 -379.94000000000000)" fill="rgb(92,92,92)" fill-rule="evenodd" stroke="none" stroke-width="1"/>
+				</g>
+			</g>
+			<path id="office-path-13" d="M642.680000,401.753000Q643.287000,401.744000,643.937000,401.693000C653.454000,400.944000,655.654000,396.965000,656.549000,391.939000C657.531000,386.421000,657.539000,384.500000,659.049000,383.988000C660.162000,383.613000,660.394000,382.379000,660.306000,380.943000C660.218000,379.507000,660.161000,379.352000,658.277000,378.751000C656.804000,378.281000,648.742000,377.609000,642.677000,377.951000L642.677000,379.439000C647.436000,379.207000,652.035000,379.739000,653.396000,380.539000C656.526000,382.379000,655.945000,391.264000,653.523000,395.666000C651.813000,398.772000,646.999000,400.335000,642.677000,400.352000ZM624.361000,380.874000C622.255000,380.927000,613.561000,378.623000,607.417000,378.133000Q606.830000,378.087000,606.217000,378.056000L606.217000,379.543000C611.169000,379.760000,616.292000,380.806000,618.137000,383.258000C621.182000,387.307000,616.323000,397.209000,611.695000,399.419000C609.965119,400.155476,608.096356,400.508897,606.217000,400.455000L606.217000,401.855000C614.650000,401.972000,617.544000,396.361000,618.505000,394.498000C620.299000,391.028000,619.732000,386.251000,624.449000,386.239000C629.166000,386.227000,628.710000,390.919000,630.523000,394.380000C631.491000,396.231000,634.323000,401.872000,642.684000,401.754000L642.684000,400.354000C640.831210,400.411266,638.987705,400.070255,637.278000,399.354000C632.636000,397.169000,627.721000,387.296000,630.744000,383.230000C632.580000,380.761000,637.720000,379.687000,642.684000,379.445000L642.684000,377.950000C642.256000,377.974000,641.836000,378.003000,641.431000,378.038000C635.931000,378.506000,629.316000,380.752000,624.361000,380.875000ZM606.213000,378.056000C600.138000,377.742000,592.042000,378.463000,590.567000,378.943000C588.686000,379.554000,588.631000,379.708000,588.552000,381.143000C588.473000,382.578000,588.710000,383.812000,589.824000,384.181000C591.342000,384.681000,591.360000,386.605000,592.373000,392.118000C593.296000,397.139000,595.520000,401.106000,605.040000,401.801000C605.440000,401.830000,605.834000,401.846000,606.212000,401.852000L606.212000,400.452000C601.912000,400.442000,597.134000,398.906000,595.412000,395.828000C592.966000,391.439000,592.335000,382.559000,595.455000,380.700000C596.816000,379.890000,601.431000,379.330000,606.208000,379.541000Z" transform="matrix(1 0 0 1 317.20366199999995 0)" fill="rgb(118,118,118)" fill-rule="evenodd" stroke="none" stroke-width="1"/>
+		</g>
+		<g id="office-board" transform="matrix(1 0 0 1 -301.67599999999999 -50)">
+			<g id="office-group-1" transform="matrix(1 0 0 1 1268 303)" opacity="0.6">
+				<rect id="office-rectangle-5" width="246" height="34" rx="0" ry="0" transform="matrix(1 0 0 1 317.17566199999993 0)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
+				<rect id="office-rectangle-6" width="246" height="118" rx="0" ry="0" transform="matrix(1 0 0 1 318.18771522000003 34)" fill="rgb(253,253,251)" stroke="none" stroke-width="1"/>
+				<line id="office-line-3" x1="0" y1="0" x2="0" y2="118" transform="matrix(1 0 0 1 440.17566199999993 34)" fill="none" stroke="rgb(232,235,237)" stroke-width="2" stroke-miterlimit="10"/>
+				<line id="office-line-4" x1="0" y1="0" x2="0" y2="118" transform="matrix(1 0 0 1 379.17566199999993 34)" fill="none" stroke="rgb(232,235,237)" stroke-width="2" stroke-miterlimit="10"/>
+				<line id="office-line-5" x1="0" y1="0" x2="0" y2="118" transform="matrix(1 0 0 1 502.17566199999993 34)" fill="none" stroke="rgb(232,235,237)" stroke-width="2" stroke-miterlimit="10"/>
+				<line id="office-line-6" x1="0" y1="34" x2="0" y2="0" transform="matrix(1 0 0 1 379.17566199999993 0)" fill="none" stroke="rgb(90,90,90)" stroke-width="2" stroke-miterlimit="10"/>
+				<line id="office-line-7" x1="0" y1="34" x2="0" y2="0" transform="matrix(1 0 0 1 440.17566199999993 0)" fill="none" stroke="rgb(90,90,90)" stroke-width="2" stroke-miterlimit="10"/>
+				<line id="office-line-8" x1="0" y1="34" x2="0" y2="0" transform="matrix(1 0 0 1 502.17566199999993 0)" fill="none" stroke="rgb(90,90,90)" stroke-width="2" stroke-miterlimit="10"/>
+				<text id="office-backlog" dx="0" dy="0" font-family="PTMono-Bold, PT Mono" font-size="7" font-weight="bold" transform="matrix(1 0 0 1 334.17566199999993 19)" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
+					<tspan id="office-tspan3" x="0" y="0" font-family="PTMono-Bold, PT Mono" font-size="7" font-weight="bold" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
+						<![CDATA[BACKLOG]]>
+					</tspan>
+				</text>
+				<text id="office-to-do" dx="0" dy="0" font-family="PTMono-Bold, PT Mono" font-size="6" font-weight="bold" transform="matrix(1 0 0 1 399.17566199999993 18)" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
+					<tspan id="office-tspan4" x="0" y="0" font-family="PTMono-Bold, PT Mono" font-size="6" font-weight="bold" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
+						<![CDATA[TO DO]]>
+					</tspan>
+				</text>
+				<text id="office-in-progress" dx="0" dy="0" font-family="PTMono-Bold, PT Mono" font-size="6" font-weight="bold" transform="matrix(1 0 0 1 448.17566199999993 18)" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
+					<tspan id="office-tspan5" x="0" y="0" font-family="PTMono-Bold, PT Mono" font-size="6" font-weight="bold" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
+						<![CDATA[IN PROGRESS]]>
+					</tspan>
+				</text>
+				<text id="office-done" dx="0" dy="0" font-family="PTMono-Bold, PT Mono" font-size="6" font-weight="bold" transform="matrix(1 0 0 1 524.17566199999987 18)" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
+					<tspan id="office-tspan6" x="0" y="0" font-family="PTMono-Bold, PT Mono" font-size="6" font-weight="bold" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
+						<![CDATA[DONE]]>
+					</tspan>
+				</text>
+			</g>
+			<g id="office-group-2" transform="matrix(1 0 0 1 1280.27999999999997 345.99299999999999)">
+				<rect id="office-rectangle-7" width="36" height="21" rx="0" ry="0" transform="matrix(1 0 0 1 317.89166199999994 4.00700000000000)" fill="rgb(213,213,213)" stroke="none" stroke-width="1"/>
+				<rect id="office-rectangle-8" width="13" height="8" rx="0" ry="0" transform="matrix(1 0 0 1 329.89166199999994 0.00700000000000)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
+			</g>
+			<g id="office-group-3" transform="matrix(1 0 0 1 1280.27999999999997 378.06799999999998)">
+				<rect id="office-rectangle-9" width="36" height="21" rx="0" ry="0" transform="matrix(1 0 0 1 317.89166199999994 3.93200000000000)" fill="rgb(213,213,213)" stroke="none" stroke-width="1"/>
+				<rect id="office-rectangle-10" width="13" height="8" rx="0" ry="0" transform="matrix(1 0 0 1 329.89166199999994 -0.06800000000000)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
+			</g>
+			<g id="office-group-4" transform="matrix(1 0 0 1 1341.70000000000005 345.99299999999999)">
+				<rect id="office-rectangle-11" width="37" height="21" rx="0" ry="0" transform="matrix(1 0 0 1 317.47266199999996 4.00700000000000)" fill="rgb(213,213,213)" stroke="none" stroke-width="1"/>
+				<rect id="office-rectangle-12" width="13" height="8" rx="0" ry="0" transform="matrix(1 0 0 1 329.47266199999996 0.00700000000000)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
+			</g>
+			<g id="office-group-5" transform="matrix(1 0 0 1 1341.70000000000005 378.06799999999998)">
+				<rect id="office-rectangle-13" width="37" height="21" rx="0" ry="0" transform="matrix(1 0 0 1 317.47266199999996 3.93200000000000)" fill="rgb(213,213,213)" stroke="none" stroke-width="1"/>
+				<rect id="office-rectangle-14" width="13" height="8" rx="0" ry="0" transform="matrix(1 0 0 1 329.47266199999996 -0.06800000000000)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
+			</g>
+			<g id="office-group-6" transform="matrix(1 0 0 1 1341.70000000000005 410.14200000000000)">
+				<rect id="office-rectangle-15" width="37" height="21" rx="0" ry="0" transform="matrix(1 0 0 1 317.47266199999996 3.85800000000000)" fill="rgb(213,213,213)" stroke="none" stroke-width="1"/>
+				<rect id="office-rectangle-16" width="13" height="8" rx="0" ry="0" transform="matrix(1 0 0 1 329.47266199999996 -0.14200000000000)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
+			</g>
+			<g id="office-group-7" transform="matrix(1 0 0 1 1403.11999999999989 345.99299999999999)">
+				<rect id="office-rectangle-17" width="37" height="21" rx="0" ry="0" transform="matrix(1 0 0 1 317.05366199999992 4.00700000000000)" fill="rgb(213,213,213)" stroke="none" stroke-width="1"/>
+				<rect id="office-rectangle-18" width="13" height="8" rx="0" ry="0" transform="matrix(1 0 0 1 330.05366199999992 0.00700000000000)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
+			</g>
+			<g id="office-group-8" transform="matrix(1 0 0 1 1464.53999999999996 345.99299999999999)">
+				<rect id="office-rectangle-19" width="37" height="21" rx="0" ry="0" transform="matrix(1 0 0 1 317.63466199999993 4.00700000000000)" fill="rgb(213,213,213)" stroke="none" stroke-width="1"/>
+				<rect id="office-rectangle-20" width="13" height="8" rx="0" ry="0" transform="matrix(1 0 0 1 329.63466199999993 0.00700000000000)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
+			</g>
+			<g id="office-group-9" transform="matrix(1 0 0 1 1464.53999999999996 378.06799999999998)">
+				<rect id="office-rectangle-21" width="37" height="21" rx="0" ry="0" transform="matrix(1 0 0 1 317.63466199999993 3.93200000000000)" fill="rgb(213,213,213)" stroke="none" stroke-width="1"/>
+				<rect id="office-rectangle-22" width="13" height="8" rx="0" ry="0" transform="matrix(1 0 0 1 329.63466199999993 -0.06800000000000)" fill="rgb(68,68,68)" stroke="none" stroke-width="1"/>
+			</g>
+		</g>
+		<g id="office-frame" transform="matrix(1 0 0 1 -662 -114.15900000000001)">
+			<g id="office-group-10" transform="matrix(1 0 0 1 1199.08999999999992 298.15899999999999)" opacity="0.198">
+				<path id="office-path-3" d="M74.923000,1.835000C76.559353,0.934748,78.542647,0.934748,80.179000,1.835000L129.568000,29.053000C131.707658,30.220240,132.777427,32.694645,132.162000,35.053000C131.529319,37.413784,129.386077,39.052419,126.942000,39.044000L28.165000,39.044000C25.718209,39.054334,23.572015,37.413779,22.940000,35.050000C22.324573,32.691645,23.394342,30.217240,25.534000,29.050000Z" transform="matrix(1 0 0 1 294.73966199999995 -1.15900000000000)" fill="none" stroke="none" stroke-width="1"/>
+				<path id="office-path-4" d="M77.551000,3.825000C77.091536,3.825297,76.639578,3.941554,76.237000,4.163000L26.845000,31.381000C25.743868,31.935671,25.196746,33.198261,25.545000,34.381000C25.827041,35.584323,26.920852,36.420077,28.156000,36.376000L126.936000,36.376000C128.171148,36.420077,129.264959,35.584323,129.547000,34.381000C129.895254,33.198261,129.348132,31.935671,128.247000,31.381000L78.865000,4.163000C78.462438,3.941514,78.010470,3.825254,77.551000,3.825000M77.551000,1.159000C78.470109,1.159164,79.374210,1.392070,80.179000,1.836000L129.568000,29.054000C131.710465,30.228842,132.777676,32.711644,132.155930,35.074659C131.534183,37.437674,129.383236,39.073728,126.940000,39.042000L28.161000,39.042000C25.717764,39.073728,23.566817,37.437674,22.945070,35.074659C22.323324,32.711644,23.390535,30.228842,25.533000,29.054000L74.922000,1.835000C75.726975,1.391766,76.631065,1.159552,77.550000,1.160000Z" transform="matrix(1 0 0 1 294.74266199999994 -1.15900000000000)" fill="rgb(160,160,160)" stroke="none" stroke-width="1"/>
+			</g>
+			<g id="office-group-11" transform="matrix(1 0 0 1 1193 321.83600000000001)">
+				<g id="office-rectangle-23" transform="matrix(1 0 0 1 0 0.32300000000000)">
+					<rect id="office-rect1" width="122" height="45" rx="4" ry="4" transform="matrix(1 0 0 1 317.49966199999994 0)" fill="rgb(116,116,116)" stroke="none" stroke-width="1"/>
+					<rect id="office-rect2" width="121" height="44" rx="3.500000" ry="3.500000" transform="matrix(1 0 0 1 317.99966199999994 0.50000000000000)" fill="none" stroke="rgb(116,116,116)" stroke-width="1"/>
+				</g>
+				<text id="office-office2" dx="0" dy="0" font-family="PTMono-Regular, PT Mono" font-size="27" transform="matrix(1 0 0 1 330.49966199999994 36.32300000000000)" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
+					<tspan id="office-tspan7" x="0" y="0" font-family="PTMono-Regular, PT Mono" font-size="27" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
+						<![CDATA[OFFICE]]>
+					</tspan>
+				</text>
+				<text id="office-the" dx="0" dy="0" font-family="PTMono-Regular, PT Mono" font-size="6" transform="matrix(1 0 0 1 372.49966199999994 11.32300000000000)" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
+					<tspan id="office-tspan8" x="0" y="0" font-family="PTMono-Regular, PT Mono" font-size="6" fill="rgb(246,246,246)" stroke="none" stroke-width="1">
+						<![CDATA[THE]]>
+					</tspan>
+				</text>
+			</g>
+		</g>
+		<g id="office-lamp">
+			<path id="office-light" d="M571.500000,0L1143,452L0,452Z" transform="matrix(1 0 0 1 337.49966199999994 80)" opacity="0.124" fill="url(#office-light-fill)" stroke="none" stroke-width="1"/>
+			<line id="office-line-9" x1="0" y1="73.500000" x2="0" y2="0" transform="matrix(1 0 0 1 908.99966199999994 0)" fill="none" stroke="rgb(64,64,64)" stroke-width="3"/>
+			<g id="office-lamp2" transform="matrix(1 0 0 1 134.10100000000000 73.45900000000000)">
+				<g id="office-group_20" transform="matrix(1 0 0 1 380.10700000000003 -0.45900000000000)">
+					<path id="office-path_12" d="M126.029000,-59.563000L97.300000,-59.563000L97.300000,-72.100000C97.309917,-80.048789,103.751211,-86.490083,111.700000,-86.500000L111.700000,-86.500000C119.648789,-86.490083,126.090083,-80.048789,126.100000,-72.100000Z" transform="matrix(1 0 0 1 282.45566199999996 86.50000000000000)" fill="rgb(170,170,170)" stroke="none" stroke-width="1"/>
+					<path id="office-path_13" d="M0,-9.253000C0,-9.253000,1.344000,-61.400000,75.053000,-61.400000C148.762000,-61.400000,154.585000,-9.253000,154.585000,-9.253000L0,-9.253000Z" transform="matrix(1 0 0 1 317.49966199999994 77.45999999999999)" fill="rgb(255,255,255)" stroke="none" stroke-width="1"/>
 				</g>
 			</g>
 		</g>
-		<clipPath id="office-clip-office">
-			<rect id="office-rect3" width="1183" height="747" rx="0" ry="0" fill="rgb(0,0,0)" stroke="none" stroke-width="1"/>
-		</clipPath>
 	</g>
+	<style>
+		<![CDATA[@font-face {  font-family: 'Roboto Mono';  font-style: normal;  font-weight: 400;  src: url(data:font/ttf;charset=utf-8;base64,AAEAAAAOAIAAAwBgR1NVQpMVghYAAAl8AAAANk9TLzKXt8F0AAAGBAAAAGBTVEFU53DMLgAACbQAAABIY21hcAEQAaoAAAZkAAAAZGdhc3AAAAAQAAAJdAAAAAhnbHlmzdJ3CQAAAOwAAARkaGVhZAE1nA4AAAWMAAAANmhoZWEKsQEqAAAF4AAAACRobXR4B50DNgAABcQAAAAcbG9jYQZfB6oAAAVwAAAAHG1heHAALAE6AAAFUAAAACBuYW1lPoNfhgAABtAAAAKEcG9zdP9tAGUAAAlUAAAAIHByZXBoBoyFAAAGyAAAAAcAAgBRAAAEkAWwAAcACgAAARMzASMBMxM3ExMDZXO4/jKb/iq5dTLDwAF5/ocFsPpQAXmhAnj9iAADAKwAAARgBbAAGwAqADkAADMhNjY3NjYnNCYnJiYnNTY2NzY2NzYmJyYmJyETIRYWFxYWBxQGBwYGByERETMWFhcWFhUUBgcGBgesAdJdr0NDUAEnIyFmNzVLHx4jAQFQQ0OsWv5PugEnO2YmJisBLygoaDr+4/02ZygnLzAnJ2Q0ATg1NJxmQXAtKUQNAxc0JiVeOWaSLy8tAfz5AiQhImA+PWAhISUBAqYBzwEaGxxWPTlWHR4fAQABAGv/7ARdBcQAPwAAASMGBgcGBiMiJicmJicmJjU1NDY3NjY3NjYzMhYXFhYXMyYmJyYmIyIGBwYGBwYGBxUWFhcWFhcWFjMyNjc2NgRduQksJSVrSUNkJSUwDw8NDQ8PMSUkZUJJayUlLAm5DEs+PqxtW5I5OlMbHBsBARscG1M6OZNaaas/Pk4BtkJxKSouKyYlYjg3czbNNnM3N2IlJSsxKytyQmisPj1DMy0te0hInlHLUZ5ISHotLTNDPTypAAIAmwAABHAFsAAVACsAADMhNjY3NjY3NjY1NSYmJyYmJyYmJyEXMxYWFxYWFxYWFxUGBgcGBgcGBgcjmwFRabVIRG4kIyUBJyUpiVlAl1X+r7yVRXQvQlsbFRUBARQUF082M4NQlQEwLSt6S0isYGtksEpXhSkeIQGYAR0aI3FGNn1EbUN7NUFpJCMmAQABAL8AAAQ9BbAACQAAATUhESE1IREzEQPY/aICw/yCuwKDnQHynvpQAoMAAAEArgAABB4FsAALAAATFSERIRUhNSERITWuAVX+qwNw/qMBXQWwofuRoKAEb6EAAAEAxgAABEcFsAAFAAAlESMRITUBf7kDgZ0FE/pQnQAAAQCPAAAEPgWwAAkAACERIwMBIxEzEwEEPrsD/cu8uwMCNQWw+8IEPvpQBED7wAAAAgBq/+wEYQXEACUASwAAATUmJicmJicmJiMiBgcGBgcGBgcVFhYXFhYXFhYzMjY3NjY3NjYnFQYGBwYGBwYGIyImJyYmJyYmJzU2Njc2Njc2NjMyFhcWFhcWFgRhARkaG1E4OJJaWpE4OFEaGxkBARobGlI4OJFaWpE4OFEaGhm2AQsODy8jJGNBQWIkJDAPDw0BAQ0PDjAkJGJAQWIkJDAPDgwChKZOoEpKgTAwNzcwMYFKSp9Opk6eSkqBMDA3NzAwgEpKn/aoNHI3OGUmJy4uJyZmODdyM6gzcTg3ZScmLi0mJ2U3OHEAAQBMAAAEhAWwAAcAAAE1IRUhETMRBIT7yAHCtAUSnp767gUSAAABAIv/7ARCBbAAHQAAASMDBgYHBgYjIiYnJiYnAyMDFhYXFhYzMjY3NjY1BECzAwImJCVsR0dtJCUnAQSwAgFGPj6uamiuPz9IBbD8JkF4Li83OC4ueEED2vwmZrNCQ0xNQ0KyZgABAAAADQCxABYAhwAFAAEAAAAAAAAAAAAAAAAAAwABAAAAAAAAABwAeQDaASEBNwFPAV8BdwHsAf8CMgABAAAAAwAA8MybHF8PPPUACwgAAAAAAMTwES4AAAAA2tg/q/wF/dUGRwhiAAAACQACAAAAAAAABM0AAAAAAFEArABrAJsAvwCuAMYAjwBqAEwAiwABAAAIYv3VAAAEzfwF/oYGRwABAAAAAAAAAAAAAAAAAAAAAQAEBM0BkAAFAAAFmgUzAAABHwWaBTMAAAPRAGYCAAAAAAAACQAAAAAAAOAAAv8QACBbAAAAIAAAAABHT09HAEAADf/9CGL91QAACGICKyAAAZ9PAQAABDoFsAAAACAAAQAAAAIAAAADAAAAFAADAAEAAAAUAAQAUAAAABAAEAADAAAAIABEAEYASQBMAE8AVf//AAAAIABBAEYASQBMAE4AVP///+H/wf/A/77/vP+7/7cAAQAAAAAAAAAAAAAAAAAAAAC4Af+FsASNAAAAAAwAlgADAAEECQAAALQAAAADAAEECQABABYAtAADAAEECQACAA4AygADAAEECQADADoA2AADAAEECQAEACYBEgADAAEECQAFABoBOAADAAEECQAGACQBUgADAAEECQAOAFQBdgADAAEECQEAAAwBygADAAEECQELAAwB1gADAAEECQEOAA4AygADAAEECQERAAwB4gBDAG8AcAB5AHIAaQBnAGgAdAAgADIAMAAxADUAIABUAGgAZQAgAFIAbwBiAG8AdABvACAATQBvAG4AbwAgAFAAcgBvAGoAZQBjAHQAIABBAHUAdABoAG8AcgBzACAAKABoAHQAdABwAHMAOgAvAC8AZwBpAHQAaAB1AGIALgBjAG8AbQAvAGcAbwBvAGcAbABlAGYAbwBuAHQAcwAvAHIAbwBiAG8AdABvAG0AbwBuAG8AKQBSAG8AYgBvAHQAbwAgAE0AbwBuAG8AUgBlAGcAdQBsAGEAcgAzAC4AMAAwADAAOwBHAE8ATwBHADsAUgBvAGIAbwB0AG8ATQBvAG4AbwAtAFIAZQBnAHUAbABhAHIAUgBvAGIAbwB0AG8AIABNAG8AbgBvACAAUgBlAGcAdQBsAGEAcgBWAGUAcgBzAGkAbwBuACAAMwAuADAAMAAwAFIAbwBiAG8AdABvAE0AbwBuAG8ALQBSAGUAZwB1AGwAYQByAGgAdAB0AHAAOgAvAC8AdwB3AHcALgBhAHAAYQBjAGgAZQAuAG8AcgBnAC8AbABpAGMAZQBuAHMAZQBzAC8ATABJAEMARQBOAFMARQAtADIALgAwAFcAZQBpAGcAaAB0AEkAdABhAGwAaQBjAE4AbwByAG0AYQBsAAMAAAAAAAD/agBkAAAAAQAAAAAAAAAAAAAAAAAAAAAAAQAB//8ADwABAAAACgAyADQABERGTFQAGmN5cmwAJGdyZWsAJGxhdG4AJAAEAAAAAP//AAAAAAAAAAAAAAAAAAEAAQAIAAIAAAAUAAIAAAAkAAJ3Z2h0AQAAAGl0YWwBCwABAAQAFAADAAAAAgEOAZAAAAK8AAAAAwABAAIBEQAAAAAAAQAA) format('truetype');}]]>
+	</style>
 </svg>

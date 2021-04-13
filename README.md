@@ -6,4 +6,4 @@
 <p align='center'>
 	For enquiries, reach me out on <a href="https://www.linkedin.com/in/claudiobonfati/" title="Claudio's LinkedIn">LinkedIn</a>.
 </p>
-<h2 align='center'><i>Stay safe, and wear a mask.</i></h2>
+<h3 align='center'><i>Stay safe, and wear a mask.</i></h3>
